@@ -1,0 +1,17 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="TestUIApp2.controller.magazine.Magazine">
+<Page enableScrolling="false" title="{i18n>magazineEditTitle}" class="sapUiResponsiveContentPadding" id="magazineEditId" showNavButton="true" navButtonPress="onNavHome">
+    <content>
+	    <TileContainer id="tilecontainerId" tiles="{magazines>/}" tileAdd="handleCreatePress" tileDelete="handleTileDelete" allowAdd="true">
+			<StandardTile id="tileid1" icon="sap-icon://newspaper" press="onSelect" title="Magazine ID: {magazines>magazineID}" info="{magazines>description}" modelContextChange="handleModelContextChange"/>
+		</TileContainer>
+    </content>
+    <footer>
+		<Toolbar>
+			<ToolbarSpacer/>
+				<Button text="New" press="handleCreatePress"/>
+				<Button text="Edit" press="handleEditPress"/>
+			<ToolbarSpacer/>
+		</Toolbar>
+	</footer>
+</Page>
+</mvc:View>

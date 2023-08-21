@@ -1,0 +1,31 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+	<Dialog title="Create a customer" afterClose="onAfterClose">
+		<f:SimpleForm id="newCustomerId" editable="true" layout="ResponsiveGridLayout">
+			<f:content>
+				<Label text="Customer First Name" labelFor="firstName"/>
+				<Input id="customerFirstNameId" required="true"/>
+				<Label text="Customer last Name" labelFor="lastName"/>
+				<Input id="customerLastNameId" required="true"/>
+				<Label text="Phone" labelFor="Phone"/>
+				<Input id="customerPhoneId"/>
+				<Label text="Email" labelFor="Email"/>
+				<Input id="customerEmailId"/>
+				<Label text="Address" labelFor="Address"/>
+				<Input id="customerAddressId"/>
+				<Label text="Birth date" labelFor="Birthdate"/>
+				<DatePicker id="customerBirthdateId" placeholder="Enter Date ..." 
+							change="handleChange" 
+							class="sapUiSmallMarginBottom" 
+							valueFormat="yyyy-MM-dd" 
+							displayFormat="long"
+							required="true"/>
+			</f:content>
+		</f:SimpleForm>
+		<beginButton>
+			<Button text="Save" press="_onCustomerSave" type="Emphasized"/>
+		</beginButton>
+		<endButton>
+			<Button text="Cancel" press="onCloseDialog"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

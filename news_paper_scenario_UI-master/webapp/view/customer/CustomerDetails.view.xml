@@ -1,0 +1,94 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="TestUIApp2.controller.customer.CustomerDetails">
+	<Page id="detailCustomerPage" showNavButton="true" navButtonPress="onNavBack" class="sapUiFioriObjectPage" title="{i18n>detailCustomerTitle}">
+		<content>
+			<ObjectHeader title="Customer ID: {customers>customerID}" introActive="true" titleActive="true" id="custDetailsHeaderId"/>
+			<IconTabBar select="ondetailUsersSelect" id="idIconTabBar">
+				<items>
+					<IconTabFilter key="detailCustomers" icon="sap-icon://employee" tooltip="Customers list">
+						<content>
+							<f:SimpleForm id="detailCustomerForm" minWidth="1024" maxContainerCols="2" editable="false" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1">
+								<f:content>
+									<Label id="label0" labelFor="text0" text="Customer Id"/>
+									<Text id="customerID" text="{customers>customerID}"/>
+									<Label id="customerFirstNameId" labelFor="text1" text="First Name"/>
+									<Text id="firstName" text="{customers>firstName}"/>
+									<Label id="customerLastNameId" labelFor="text1" text="Last Name"/>
+									<Text id="lastName" text="{customers>lastName}"/>
+									<Label id="customerPhoneId" labelFor="text1" text="Phone"/>
+									<Text id="phone" text="{customers>phone}"/>
+									<Label id="customerEmailId" labelFor="text2" text="Email"/>
+									<Text id="email" text="{customers>email}"/>
+									<Label id="customerAddressId" labelFor="text3" text="Address"/>
+									<Text id="address" text="{customers>address}"/>
+									<Label id="customerBirthdateId" labelFor="text3" text="Birth date"/>
+									<Text	id="text5" text="{path : 'customers>birthday',
+																type: 'sap.ui.model.type.Date',
+																formatOptions: 
+																{	source: { pattern: 'yyyy-MM-ddTHH:mm:ss'},
+    																			pattern: 'MMM d, yyyy'}
+																}"/>
+								</f:content>
+							</f:SimpleForm>
+						</content>
+					</IconTabFilter>
+				</items>
+				<items>
+					<IconTabFilter key="detailCustomers" icon="sap-icon://customer-order-entry" tooltip="Orders list">
+						<Button text="New" width="100px" id="__button2" icon="sap-icon://add" press="onOrderAdd"/>
+						<Table noDataText="No text" id="orderTableId" items="{orders>/value}">
+						        <items>
+					            	<ColumnListItem id="orderListId" press="onOrderSelect" type="Active">
+						                <cells>
+						                    <Text text="{orders>order_ID}"/>
+						                    <Text	text="{path : 'orders>createdAt',
+																type: 'sap.ui.model.type.DateTime',
+																formatOptions: 
+																{	source: { pattern: 'yyyy-MM-ddTHH:mm:ss.Z'},
+    																pattern: 'MMM d, yyyy, HH:mm:ss'}
+																}"/>
+						                    <Text text="{orders>orderTitle}"/>
+						                    <Text text="{orders>customer/customerID}"/>
+						            	</cells>
+						            </ColumnListItem>
+						        </items>
+						        <columns>
+						            <Column id="orderId">
+						                <header>
+						                    <Label text="Order ID" id="torderId"/>
+						                </header>
+						            </Column>
+						            <Column id="createatId">
+						                <header>
+						                    <Label text="Create Date" id="tcreateatId"/>
+						                </header>
+						            </Column>
+						            <Column id="ordertitleId">
+						                <header>
+						                    <Label text="Order Title" id="tordertitleId"/>
+						                </header>
+						            </Column>
+						            <Column id="ocustomerId">
+						                <header>
+						                    <Label text="Customer ID" id="tocustomerId"/>
+						                </header>
+						            </Column>
+								</columns>
+							</Table>
+						<Button text="Edit" width="100px" id="__button1" icon="sap-icon://edit" press="onOrderEdit"/>
+						<Button text="Delete" width="100px" id="__button0" icon="sap-icon://delete" press="onOrderDelete"/>
+					</IconTabFilter>
+				</items>
+				
+			</IconTabBar>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button id="EditButtonId" text="Edit" icon="sap-icon://edit" press="onCustomerEdit"/>
+				<Button id="SaveButtonId" text="Save" type="Emphasized" visible="false" press="onCustomerSave"/>
+				<Button id="CancelButtonId" text="Cancel" visible="false" press="onCancel"/>
+				<Button id="DeleteButtonId" text="Delete" icon="sap-icon://delete" press="onCustomerDelete"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

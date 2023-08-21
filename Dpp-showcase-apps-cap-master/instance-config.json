@@ -1,0 +1,33 @@
+{
+    "xs-security": {
+        "xsappname": "dpi-enablement-inst",
+        "authorities": [
+            "$ACCEPT_GRANTED_AUTHORITIES"
+        ]
+    },
+    "dppConfig": {
+        "applicationName": "dpi-enablement-skeleton",
+        "applicationHost":"https://capshowcaseapps-srv.cfapps.sap.hana.ondemand.com",
+        "information": {
+            "applicationTitle": "DPI Enablement Skeleton Application",
+            "applicationTitleKey": "dpi-enablement-skeleton",
+            "modules": [
+                {
+                    "fullyQualifiedModuleName": "dpp-showcase-app-cap",
+                    "applicationURL": "https://capshowcaseapps-srv.cfapps.sap.hana.ondemand.com",
+                    "endPoints": [
+                        {
+                            "type": "odataV4",
+                            "serviceName": "service",
+                            "serviceTitle": "service",
+                            "serviceTitleKey": "service",
+                            "serviceURI": "/dpp",
+                            "hasGdprV4Annotations": true
+                            
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

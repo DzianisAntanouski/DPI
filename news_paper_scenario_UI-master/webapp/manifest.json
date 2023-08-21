@@ -1,0 +1,268 @@
+{
+	"_version": "1.7.0",
+	"sap.app": {
+		"id": "TestUIApp2",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"resources": "resources.json",
+		"ach": "ach",
+		"dataSources": {
+			"Neo": {
+				"uri": "/destinations/Testodata/",
+				"type": "sap.ui.model.json.JSONModel"
+			},
+			"CF": {
+				"uri": "/api/",
+				"type": "sap.ui.model.json.JSONModel"
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "TestUIApp2.view.App",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {},
+				"sap.ushell": {},
+				"sap.collaboration": {},
+				"sap.ui.comp": {},
+				"sap.uxap": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "TestUIApp2.i18n.i18n"
+				}
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "TestUIApp2.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"bypassed": {
+					"target": "notFound"
+				}
+			},
+			"routes": [
+				{
+					"name": "Home",
+					"pattern": "",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"Home"
+					]
+				},
+				{
+					"name": "Customers",
+					"pattern": "/customers",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"Customers",
+						"masterCustomers"
+					]
+				},
+				{
+					"name": "masterCustomers",
+					"pattern": "/customers",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"masterCustomers"
+					],
+					"subroutes": [
+						{
+							"name": "customerDetails",
+							"pattern": "/customers/{customerID}/{path}",
+							"titleTarget": "",
+							"greedy": false,
+							"target": [
+								"customerDetails"
+							]
+						}
+					]
+				},
+				{
+					"name": "Editions",
+					"pattern": "/editions",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"Editions",
+						"masterEditions"
+					]
+				},
+				{
+					"name": "Magazines",
+					"pattern": "/magazines",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"Magazines"
+					]
+				},
+				{
+					"name": "masterEditions",
+					"pattern": "/editions/{magazineID}/{path}",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"masterEditions"
+					],
+					"subroutes": [
+						{
+							"name": "editionDetails",
+							"pattern": "/editions/{editionID}/{path}",
+							"titleTarget": "",
+							"greedy": false,
+							"target": [
+								"editionDetails"
+							]
+						}
+					]
+				},
+				{
+					"name": "TypesList",
+					"pattern": "/types",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"TypesList"
+					]
+				}
+			],
+			"targets": {
+				"Home": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Home",
+					"viewLevel": 1
+				},
+				"notFound": {
+					"viewName": "NotFound",
+					"transition": "show"
+				},
+				"Customers": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "customer/Customers",
+					"viewLevel": 3
+				},
+				"masterCustomers": {
+					"parent": "Customers",
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "customer/MasterCustomers",
+					"viewLevel": 5,
+					"controlId": "idSplitApp",
+					"controlAggregation": "masterPages"
+				},
+				"customerDetails": {
+					"parent": "Customers",
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "customer/CustomerDetails",
+					"controlId": "idSplitApp",
+					"controlAggregation": "detailPages",
+					"viewLevel": 6
+				},
+				"Editions": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "edition/Editions",
+					"viewLevel": 6
+				},
+				"masterEditions": {
+					"parent": "Editions",
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "edition/MasterEditions",
+					"viewLevel": 8,
+					"controlId": "idSplitApp",
+					"controlAggregation": "masterPages"
+				},
+				"editionDetails": {
+					"parent": "Editions",
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "edition/EditionDetails",
+					"controlId": "idSplitApp",
+					"controlAggregation": "detailPages",
+					"viewLevel": 9
+				},
+				"Magazines": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "magazine/Magazine",
+					"viewLevel": 3
+				},
+				"TypesList": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "typeslist/TypesList",
+					"viewLevel": 3
+				}
+			}
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
+	}
+}

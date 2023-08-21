@@ -1,0 +1,26 @@
+{
+    "name": "CAP_Showcase_apps",
+    "version": "1.0.0",
+    "description": "A simple CAP project.",
+    "repository": "<Add your repository here>",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+        "@sap/cds": "^7.1.2",
+        "express": "^4",
+        "@sap/hana-client": "^2.17.22"
+    },
+    "devDependencies": {
+        "sqlite3": "5.1.6"
+    },
+    "scripts": {
+        "start": "npx cds run"
+    },
+    "cds": {
+        "requires": {
+            "db": {
+                "kind": "hana"
+            }
+        }
+    }
+}

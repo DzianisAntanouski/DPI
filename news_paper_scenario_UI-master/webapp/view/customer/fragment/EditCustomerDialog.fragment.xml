@@ -1,0 +1,34 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+	<Dialog id = "EditCustomerFragId" title="Edit customer" afterClose="onAfterClose">
+		<f:SimpleForm id="editCustomerId" editable="true" layout="ResponsiveGridLayout">
+			<f:content>
+				<Label id="ecustomerID" labelFor="text0" text="Customer ID"/>
+				<Text id="tecustomerID" text="{customers>customerID}"/>
+				<Label text="First Name" labelFor="firstName"/>
+				<Input id="ecustomerFirstNameId" required="true" value ="{customers>firstName}"/>
+				<Label text="Last Name" labelFor="lastName"/>
+				<Input id="ecustomerLastNameId" required="true" value ="{customers>lastName}"/>
+				<Label text="Phone" labelFor="Phone"/>
+				<Input id="ecustomerPhoneId" value="{customers>phone}"/>
+				<Label text="Email" labelFor="Email"/>
+				<Input id="ecustomerEmailId" value="{customers>email}"/>
+				<Label text="Address" labelFor="Address"/>
+				<Input id="ecustomerAddressId" value="{customers>address}"/>
+				<Label text="Birth date" labelFor="Birthdate"/>
+				<DatePicker id="ecustomerBirthdateId" placeholder="Enter Date ..." 
+							change="handleChange" 
+							class="sapUiSmallMarginBottom" 
+							valueFormat="yyyy-MM-dd" 
+							displayFormat="long"
+							required="true"
+							value="{customers>birthday}"/>
+			</f:content>
+		</f:SimpleForm>
+		<beginButton>
+			<Button text="Save" press="_onCustomerSave" type="Emphasized"/>
+		</beginButton>
+		<endButton>
+			<Button text="Cancel" press="onCloseDialog"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

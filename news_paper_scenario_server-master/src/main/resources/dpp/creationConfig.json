@@ -1,0 +1,8 @@
+{
+  "xs-security": {
+    "xsappname": "pdm-personal-data-manager-service-clone",
+    "authorities": ["$ACCEPT_GRANTED_AUTHORITIES"]
+  },
+  "fullyQualifiedApplicationName": "com-sap-showcase-media-app1",
+  "applicationTitle": "Showcase Media App V1"
+}

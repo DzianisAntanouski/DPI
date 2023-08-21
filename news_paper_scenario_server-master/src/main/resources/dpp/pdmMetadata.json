@@ -1,0 +1,188 @@
+{
+  "Namespace": "com.sap.showcase:media-app",
+  "Entities": [
+    {
+      "Name": "customers",
+      "sap:pdm-semantics": "data-subject-identity",
+      "sap:pdm-business-object": "Customers",
+      "sap:pdm-business-node": "CustomerMaster",
+      "sap:label": "Customer",
+      "sap:updatable": false,
+      "sap:deletable": false,
+      "sap:pdm-data-subject-role":"Customer",
+      "sap:pdm-data-subject-role-desc":"Customer for MediaApp",
+      "Keys": [
+        {
+          "Name": "customerID"
+        }
+      ],
+      "Properties": [
+        {
+          "Name": "customerID",
+          "Type": "Edm.Int32",
+          "Nullable": false,
+          "MaxLength": 10,
+          "sap:pdm-semantics": "data-subject-id",
+          "sap:label": "Customer Number"
+        },
+        {
+          "Name": "firstName",
+          "Type": "Edm.String",
+          "Nullable": false,
+          "MaxLength": 50,
+          "sap:pdm-semantics": "personal-data",
+          "sap:pdm-property": "first-name",
+          "sap:label": "First Name"
+        },
+        {
+          "Name": "lastName",
+          "Type": "Edm.String",
+          "Nullable": false,
+          "MaxLength": 50,
+          "sap:pdm-semantics": "personal-data",
+          "sap:pdm-property": "last-name",
+          "sap:label": "Last Name"
+        },
+        {
+          "Name": "email",
+          "Type": "Edm.String",
+          "Nullable": false,
+          "MaxLength": 241,
+          "sap:pdm-semantics": "personal-data",
+          "sap:pdm-property": "email",
+          "sap:label": "Email"
+        },
+        {
+          "Name": "phone",
+          "Type": "Edm.String",
+          "Nullable": false,
+          "MaxLength": 50,
+          "sap:pdm-semantics": "personal-data",
+          "sap:pdm-property": "phone",
+          "sap:label": "Phone"
+        },
+        {
+          "Name": "address",
+          "Type": "Edm.String",
+          "Nullable": false,
+          "MaxLength": 150,
+          "sap:pdm-semantics": "personal-data",
+          "sap:pdm-property": "address-landmark",
+          "sap:label": "Country"
+        }
+      ]
+    },
+    {
+      "Name": "subscriptions",
+      "sap:pdm-semantics": "business-data",
+      "sap:pdm-business-object": "Subscriptions",
+      "sap:pdm-business-node": "SubscriptionHeader",
+      "sap:label": "Subscriptions",
+      "sap:updatable": false,
+      "sap:deletable": false,
+      "Keys": [
+        {
+          "Name": "subscriptionID"
+        }
+      ],
+      "Properties": [
+        {
+          "Name": "customerID",
+          "Type": "Edm.Int32",
+          "Nullable": false,
+          "MaxLength": 255,
+          "sap:pdm-property": "data-subject-id",
+          "sap:pdm-display-seq-no": -1
+        },
+        {
+          "Name": "subscriptionID",
+          "Type": "Edm.Int32",
+          "Nullable": false,
+          "MaxLength": 50,
+          "sap:label": "Subscription ID",
+          "sap:pdm-display-seq-no": 1
+        },
+        {
+          "Name": "startDate",
+          "Type": "Edm.DateTime",
+          "Nullable": false,
+          "MaxLength": 256,
+          "sap:label": "Start Date",
+          "sap:pdm-display-seq-no": 2
+        },
+        {
+          "Name": "endDate",
+          "Type": "Edm.DateTime",
+          "Nullable": false,
+          "MaxLength": 256,
+          "sap:label": "End Date",
+          "sap:pdm-display-seq-no": 3
+        },
+        {
+          "Name": "subscriptionTypeId",
+          "Type": "Edm.Int32",
+          "Nullable": true,
+          "MaxLength": 255,
+          "sap:label": "Subscription Type Id",
+          "sap:pdm-display-seq-no": 4
+        },
+        {
+          "Name": "magazineID",
+          "Type": "Edm.Int32",
+          "Nullable": true,
+          "MaxLength": 255,
+          "sap:label": "Magazine Id",
+          "sap:pdm-display-seq-no": 5
+        }
+      ]
+    },
+    {
+      "Name": "orders",
+      "sap:pdm-semantics": "business-data",
+      "sap:pdm-business-object": "Orders",
+      "sap:pdm-business-node": "OrderHeader",
+      "sap:label": "Orders",
+      "sap:updatable": false,
+      "sap:deletable": false,
+      "Keys": [
+        {
+          "Name": "orderID"
+        }
+      ],
+      "Properties": [
+        {
+          "Name": "customerID",
+          "Type": "Edm.Int32",
+          "Nullable": false,
+          "MaxLength": 255,
+          "sap:pdm-property": "data-subject-id",
+          "sap:pdm-display-seq-no": -1
+        },
+        {
+          "Name": "orderID",
+          "Type": "Edm.Int32",
+          "Nullable": false,
+          "MaxLength": 50,
+          "sap:label": "Order ID",
+          "sap:pdm-display-seq-no": 1
+        },
+        {
+          "Name": "createdAt",
+          "Type": "Edm.DateTime",
+          "Nullable": false,
+          "MaxLength": 256,
+          "sap:label": "Created At",
+          "sap:pdm-display-seq-no": 2
+        },
+        {
+          "Name": "orderTitle",
+          "Type": "Edm.String",
+          "Nullable": true,
+          "MaxLength": 255,
+          "sap:label": "Order Title",
+          "sap:pdm-display-seq-no": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "**/.gitignore": true,
+    "**/.git": true,
+    "**/.vscode": true
+  },
+  "files.watcherExclude": {
+    "**/target": true
+  }
+}

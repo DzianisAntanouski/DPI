@@ -1,0 +1,22 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="TestUIApp2.controller.edition.MasterEditions">
+	<Page id="masterEditionsPage" showNavButton="true" navButtonPress="onNavMagazine" title="{i18n>masterEditionsTitle}">
+		<content>
+			<List id="masterEditionsList" items="{          path : 'editions>/',             sorter : {                 path : 'editionID'              }         }" noDataText="{i18n>masterListNoDataText}">
+				<items>
+					<ObjectListItem title="Edition ID: {editions>editionID}" press="onSelect" type="Navigation">
+						<attributes>
+							<ObjectAttribute text="{editions>description}"/>
+						</attributes>
+					</ObjectListItem>
+				</items>
+			</List>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button icon="sap-icon://refresh" tooltip="Refresh" text="Refresh" press="onEditionRead"/>
+				<Button icon="sap-icon://add" tooltip="Create customer" text="Create" press="onEditionAdd"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

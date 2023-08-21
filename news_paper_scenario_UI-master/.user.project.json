@@ -1,0 +1,26 @@
+{
+  "run": [
+    {
+      "filePath": "/TestUIApp2/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "urlParametersNotNeeded": false,
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 9471816,
+        "displayName": "Run index.html",
+        "lastRunTimeStamp": 1528281768728
+      }
+    }
+  ],
+  "hybrid": {
+    "dirty": false
+  }
+}

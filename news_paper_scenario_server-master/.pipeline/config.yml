@@ -1,0 +1,16 @@
+general:
+  buildTool: maven
+  gitSshKeyCredentialsId: 0710ad53-cdc3-4bc2-814f-65c9be6ce68e
+  xMakeBuildQuality: Milestone
+  xMakeNovaCredentialsId: xMake-nova
+steps:
+  executeBuild:
+    xMakeShipmentType: indirectshipment
+  executeFortifyAuditStatusCheck:
+    fortifyCredentialsId: FORTIFY_TOKEN
+  executeFortifyScan:
+    fortifyCredentialsId: FORTIFY_TOKEN
+  publishGithubRelease:
+    githubCredentialsId: github.comTokenSven
+  writeInflux:
+    influxServer: jenkins

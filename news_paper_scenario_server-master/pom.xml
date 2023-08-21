@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.sap.showcase</groupId>
+	<artifactId>media-app</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>media-app</name>
+	<description>Showcase Spring Boot app deployable on CF</description>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.3.0.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<whitesource.version>3.3.1</whitesource.version>
+		<!-- see: How to integrate White Source Scan Plugin into the parent pom.xml,
+			https://jam4.sapjam.com/wiki/show/PWLWgLuXEtnaKsPyYnURvM -->
+		<org.whitesource.product>SHC - SECURITY DPP SHOW CASE APPS 1.0</org.whitesource.product>
+		<org.whitesource.productVersion>1.0</org.whitesource.productVersion>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>ch.qos.logback</groupId>
+					<artifactId>logback-classic</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>ch.qos.logback</groupId>
+					<artifactId>logback-core</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- AuditLog Service library -->
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+			<version>1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sap.xs.auditlog</groupId>
+			<artifactId>audit-java-client-api</artifactId>
+			<version>0.4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sap.xs.auditlog</groupId>
+			<artifactId>audit-java-client-impl</artifactId>
+			<version>0.4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sap.xs.java</groupId>
+			<artifactId>xs-env</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+		<!-- EclipseLink as JPA implementation -->
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>org.eclipse.persistence.jpa</artifactId>
+			<version>2.7.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.199</version><!--$NO-MVN-MAN-VER$ -->
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<!-- Security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<dependency> <!-- includes spring-security-oauth2 -->
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-jose</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-resource-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sap.cloud.security.xsuaa</groupId>
+			<artifactId>xsuaa-spring-boot-starter</artifactId>
+			<version>2.7.2</version>
+		</dependency>
+		<dependency> <!-- new with version 1.5.0 -->
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-to-slf4j</artifactId>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<!-- configure Whitesource plugin -->
+			<!-- from http://docs.whitesourcesoftware.com/display/serviceDocs/Maven+plugin -->
+			<plugin>
+				<groupId>org.whitesource</groupId>
+				<artifactId>whitesource-maven-plugin</artifactId>
+				<version>${whitesource.version}</version>
+				<configuration>
+					<orgToken>b39d1328-52e2-42e3-98f0-932709daf3f0</orgToken>
+					<checkPolicies>true</checkPolicies>
+					<ignorePomModules>false</ignorePomModules>
+					<autoDetectProxySettings>true</autoDetectProxySettings>
+					<forceCheckAllDependencies>true</forceCheckAllDependencies>
+					<forceUpdate>true</forceUpdate>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.sap.ldi</groupId>
+				<artifactId>fortify-plugin</artifactId>
+				<version>1.8.0</version>
+				<executions>
+					<execution>
+						<id>default-cli</id>
+						<goals>
+							<goal>translate</goal>
+						</goals>
+						<configuration>
+							<includes>
+								<include>src/main/java/**</include>
+								<include>src/main/resources/**</include>
+							</includes>
+							<excludes>
+								<exclude>**/*.js</exclude>
+								<exclude>**/*.html</exclude>
+							</excludes>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

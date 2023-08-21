@@ -1,0 +1,38 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="TestUIApp2.controller.Home"><Page title="{i18n>homePageTitle}" class="sapUiResponsiveContentPadding">
+		<content>
+			<Label text="Maintain Magazine" width="100%" id="__label0"/>
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Magazines" press="onDisplayMagazines">
+				<tileContent>
+					<TileContent>
+						<content>
+							<ImageContent src="sap-icon://newspaper"/>
+						</content>
+					</TileContent>
+				</tileContent>
+			</GenericTile>
+			<Label width="100%" id="__label2"/>
+			<Label text=" Maintain Entities" width="100%" id="__label1"/>
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Customers" press="onDisplayCustomers">
+				<tileContent>
+					<TileContent>
+						<content>
+							<ImageContent src="sap-icon://customer"/>
+						</content>
+					</TileContent>
+				</tileContent>
+			</GenericTile>
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>TypesListTitleTile}" press="onDisplayTypes">
+				<tileContent>
+					<TileContent>
+						<content>
+							<ImageContent src="sap-icon://notes"/>
+						</content>
+					</TileContent>
+				</tileContent>
+			</GenericTile>
+		</content>
+	<headerContent>
+	    <Button width="50px" id="userButtonId" icon="sap-icon://customer" tooltip="{user>displayName}"/><Button width="50px" id="exitButtonId" icon="sap-icon://log" tooltip="Log Out" press="onLogoutBtn"/>
+	</headerContent>
+	</Page>
+</mvc:View>

@@ -1,0 +1,4 @@
+applications:
+- name: dpi-enablement-skeleton
+  buildpack: sap_java_buildpack
+  memory: 1024M

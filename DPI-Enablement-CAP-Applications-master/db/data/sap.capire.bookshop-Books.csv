@@ -1,0 +1,79 @@
+ID;author;booktitle
+1;['Jorge Marx Gómez', 'Claus Rautenstrauch', 'Peter Cissek'];Einführung in Business Intelligence mit SAP NetWeaver 7.0
+2;['Jorge Marx Gómez', 'Claus Rautenstrauch', 'Peter Cissek', 'Björn Grahlher'];Einführung in SAP Business Information Warehouse
+3;['André Maassen', 'Markus Schoenen', 'Detlev Frick', 'Andreas Gadatsch'];Grundkurs SAP R/3®
+4;['Ulrich Mende', 'Andreas Berthold'];SAP business workflow
+5;['Holger Gubbels'];SAP® ERP - Praxishandbuch Projektmanagement
+6;['Regine Möhrlen', 'Friedrich Kokot'];SAP R/3 - Kompendium
+7;['Sabine Wucher'];Schnelleinstieg in die Buchführung mit SAP R/3
+8;['Wilhelm Nüßer', 'Manfred Stein', 'Alexander Hass', 'Thorsten Kugelberg', 'Florenz Kley'];SAP® on Linux
+9;['Gerhard Jurasek', 'Andreas Klein'];Schnelleinstieg Controlling mit SAP ERP
+10;['Holger Gubbels'];SAP R/3 - Praxishandbuch Projektmanagement
+11;['Jürgen Bauer'];Produktionscontrolling und -management mit SAP® ERP
+12;['Heinz-Dieter Knöll', 'Christoph Schulz-Sacharow', 'Michael Zimpel'];Unternehmensführung mit SAP BI
+13;['Egmont Foth'];Exzellente Geschäftsprozesse mit SAP
+14;['Paul Wenzel'];Rechnungswesen mit SAP R/3®
+15;['Michael Ullrich'];SAP R 3 - der schnelle Einstieg
+16;['Thomas Teufel'];SAP Business One prozessorientiert anwenden
+17;['AFOS', 'Andreas Blume'];Projektkompass SAP®
+18;['Paul Wenzel'];Betriebswirtschaftliche Anwendungen mit SAP R/3®
+19;['Sabine Hefner', 'Michael Dittmar'];SAP R 3 - Finanzwesen
+20;['Alberto Vivenzio'];Testautomation mit SAP®
+21;['Thomas Teufel', 'Jürgen Röhricht', 'Peter Willems'];SAP-Prozesse: Finanzwesen und Controlling
+22;['Benedikt Schmidt'];Wettbewerbsvorteile im SAP-Outsourcing durch Wissensmanagement
+23;['Frank Liening', 'Stephan Scherleithner'];SAP R 3 - Gemeinkostencontrolling
+24;['Franz Josef Heiss', 'Gisela Gratzl', 'Erich Weirich'];SAP NetWeaver Web Application Server
+25;['Jochen Benz', 'Markus Höflinger'];Logistikprozesse mit SAP
+26;['Karsten Drath'];Überleben in SAP-Projekten
+27;['Marc Jansen'];Programmierung von SAP-Systemen
+28;['Alexander Prosser', 'Robert Müller - Török'];SAP® ECC in der öffentlichen Verwaltung
+29;['Oliver Kohnke', 'Walter Bungard'];SAP-Einführung mit Change Management
+30;['Andreas Witt'];Grundkurs SAP APO
+31;['Andreas Gadatsch', 'Detlev Frick'];SAP®-gestütztes Rechnungswesen
+32;['Gunther Friedl', 'Christian Hilz', 'Burkhard Pedell'];Controlling mit SAP®
+33;['Susanne Finke'];SAP Foreign Currency Revaluation
+34;['Detlev Frick', 'Andreas Gadatsch', 'Ute G. Schäffer-Külz'];Grundkurs SAP® ERP
+35;['Katrin Meyer'];SAP HR als Instrument modernen Personalmanagements
+36;['Moritz Cohrs'];Ein Architekturmodell für SAP®-Anwendungen
+37;['Roland Ladengruber'];Web basierte Lösung zur mobilen Erfassung von Instandhaltungsmeldungen im Zusammenhang mit SAP als ERP System
+38;['Jens Bretschneider'];SAP User Interface Strategien: zielgruppengerechte Bewertung und Einordnung
+39;['Andreas Schuster'];Praxishandbuch SAP HANA – Administration
+40;['Klaus-Peter Sauer', 'Frank Riesner'];SAP BW/4HANA und BW auf HANA, 2. erweiterte Auflage
+41;['Lauren Oliver'];Hana
+42;['Christoph Kretner', 'Jascha Kanngießer'];Berechtigungen in SAP BW, HANA und BW/4HANA
+43;['Rüdiger Deppe'];ABAP-Programmierung unter SAP HANA
+44;['Frank Riesner, Klaus-Peter Sauer'];SAP BW/4HANA and BW on HANA
+45;['Ulrich Schlüter Janet Salmon'];SAP HANA for ERP Financials
+46;['Ronald Takaki'];Pau Hana
+47;['Bjarne Berg', 'Penny Silvia'];Einführung in SAP HANA
+48;['Christian Savelli'];SAP BW on SAP HANA
+49;['Chandrasekhar Mankala', 'Ganesh Mahadevan V.'];SAP HANA Cookbook
+50;['Jack Langley'];Hana's Secret
+51;['Jim Schell'];Hana and the Golden Kenzan
+52;['Azor Joswalette'];Hana’s Journey to Love
+53;['Mark Walker'];Software Development on the SAP Hana Platform
+54;['Mark Walker'];SAP HANA Starter
+55;['Rob Frye, Joe Darlak, Dr. Bjarne Berg'];The SAP BW to HANA Migration Handbook
+56;['Bert Vanstechelman'];The SAP HANA Deployment Guide
+57;['Azor Racine'];Hana’S Journey to Love
+58;['Chieri Uegaki'];Hana Hashimoto, Sixth Violin
+59;['Kirsten Whatley'];The Road To Hana
+60;['Henricus HANA'];Henrici Hana oratio de puerorum apud Graecos, Athenienses imprimis, institutione, etc
+61;['Peppovision', 'Douglas Simonson', 'Pat Sasaki', 'Ken Sakata', 'Todd Kurosawa'];Pidgin to Da Max Hana Hou
+62;['Karen Seymour'];A Home for Hana
+63;['Katie Bidoli'];Karate Adventures of Kisho, Hana, and Nobu
+64;['Gensai Murai', 'Unkici Kawai'];Hana: A Daughter of Japan
+65;['JANET SALMON. ULRICH SCHLUTER'];SAP HANA für ERP Financials
+66;['Dennis Schindeldecker'];Entwicklungsziele und Strategieziele der SAP HANA
+67;['Andreas Markstädter'];Datenverarbeitung mit der SAP HANA In-Memory-Plattform der SAP
+68;['Arkin Kizilarslan'];Text-Mining auf Basis von SAP HANA am Beispiel von Social-Media-Beiträgen eines Handelsunternehmens
+69;['Peter Preuss'];In-Memory-Datenbank SAP HANA
+70;['Benjamin Wieder'];Evaluation des In-Memory Datenbanksystems SAP HANA als Cloudlösung für Business Intelligence Systeme
+71;['Jan Steins'];Carly und Hana - Abenteuer auf der Insel Tipolypop
+72;['Ron Youngblood', 'Leonard Lueras'];On the Hana coast
+73;['Notebook for Hana Notebook'];It's a Hana Thing You Wouldn't Understand, Hana Notebook for Writing Notebook Cute
+74;['Hana Publishing'];Because I'm Hana That's Why
+75;['Jörg Brandeis'];SQLScript für SAP HANA
+76;['Hermann Gahm', 'Thorsten Schneider', 'Eric Westenberger', 'Christiaan Swanepoel'];ABAP-Entwicklung für SAP HANA
+77;['Matthias Merz', 'Torben Hügens', 'Steve Blum'];SAP BW auf SAP HANA
+78;['Jürgen Butsmann', 'Manfred Crumbach', 'Jörg Franke', 'Benjamin Köhler', 'Jan Morgenthaler'];SAP S/4HANA Embedded Analytics

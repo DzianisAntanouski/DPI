@@ -1,0 +1,87 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="TestUIApp2.controller.typeslist.TypesList">
+	<Page id="TypesListPage" showNavButton="true" navButtonPress="onNavBack" class="sapUiFioriObjectPage" title="{i18n>TypesListTitle}">
+		<content>
+			<IconTabBar select="onDetailTypesListSelect" id="idIconTabBar">
+				<items>
+					<IconTabFilter key="detailSubscriptionType" icon="sap-icon://form" tooltip="Subscription Type list" text="Subscription Types">
+						<content>
+						    <Button text="New" width="100px" id="SubscriptionTypeAdd" icon="sap-icon://add" press="onSubscriptionTypeAdd"/>
+						    <Table noDataText="No text" id="subscriptionTypeTableId" mode="Delete" delete="onSubscriptionTypeDelete" items="{path: 'subscriptiontypes>/', sorter: {path: 'subscriptionTypeId'}}">
+						        <items>
+					            	<ColumnListItem id="subscriptionTypeListId" press="onSubscriptionTypeSelect" type="DetailAndActive" detailPress="onSubscriptionTypeEdit">
+						                <cells>
+						                    <Text text="{subscriptiontypes>subscriptionTypeId}"/>
+						                    <Text text="{subscriptiontypes>description}"/>
+						                    <ObjectNumber
+												number="{subscriptiontypes>price}"
+												unit='EUR' />
+						                    <Text text="{subscriptiontypes>oneTime}"/>
+						            	</cells>
+						            </ColumnListItem>
+						        </items>
+						        <columns>
+						            <Column id="subscriptionTypeId">
+						                <header>
+						                    <Label text="Subscription Type ID" id="tsubscriptionTypeId"/>
+						                </header>
+						            </Column>
+						            <Column id="stdescriptionId">
+						                <header>
+						                    <Label text="Description" id="sttdescriptionId"/>
+						                </header>
+						            </Column>
+						            <Column id="priceId">
+						                <header>
+						                    <Label text="Price" id="tpriceId"/>
+						                </header>
+						            </Column>
+						            <Column id="onetimeId">
+						                <header>
+						                    <Label text="One Time" id="tonetimeId"/>
+						                </header>
+						            </Column>
+						            </columns></Table>
+						</content>
+					</IconTabFilter>
+				</items>
+				<items>
+					<IconTabFilter key="detailAdvertisementType" icon="sap-icon://notes" tooltip="Advertisement Type list" text="Advertisement Types">
+						<content>
+						    <Button text="New" width="100px" id="__button2" icon="sap-icon://add" press="onAdvertisementTypeAdd"/>
+						    <Table noDataText="No text" id="advertisementTypeTableId" items="{path: 'advertisementtypes>/', sorter: {path: 'advertisementTypeId'}}"
+						    		mode="Delete" delete="onAdvertisementTypeDelete">
+						        <items>
+					            	<ColumnListItem id="advertisementTypeListId" press="onAdvertisementTypeSelect"  type="DetailAndActive" detailPress="onAdvertisementTypeEdit">
+						                <cells>
+						                	<Text text="{advertisementtypes>advertisementTypeId}"/>
+						                    <Text text="{advertisementtypes>description}"/>
+						                    <ObjectNumber
+												number="{advertisementtypes>price}"
+												unit='EUR' />
+						            	</cells>
+						            </ColumnListItem>
+						        </items>
+						        <columns>
+						            <Column id="advertisementTypeId">
+						                <header>
+						                    <Label text="Advertisement Type ID" id="tadvertisementTypeId"/>
+						                </header>
+						            </Column>
+						            <Column id="atdescriptionId">
+						                <header>
+						                    <Label text="Description" id="attdescriptionId"/>
+						                </header>
+						            </Column>
+						            <Column id="apriceId">
+						                <header>
+						                    <Label text="Price" id="atpriceId"/>
+						                </header>
+						            </Column>
+						    	</columns></Table>
+						</content>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+	</Page>
+</mvc:View>

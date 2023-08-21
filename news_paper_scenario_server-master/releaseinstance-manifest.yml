@@ -1,0 +1,54 @@
+---
+applications:
+
+- name: media-app
+  memory: 800M
+  host: media-app
+  path: target/media-app-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  timeout: 180
+
+  env:
+    SAP_JWT_TRUST_ACL: >
+      [{"clientid":"*","identityzone": "*"}]
+
+  services: 
+  - auditlog   
+  - applogs
+  - psqlmedia1
+  - uaamedia
+  - consent-repository-service
+  - centralbupa
+  
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+
+- name: approuter-media
+  host: approuter-media
+  path: src/main/approuter
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.6.10
+  memory: 128M
+  timeout: 180
+  env:
+    XSAPPNAME: media-app
+    TENANT_HOST_PATTERN: "^(.*)-approuter-media.cfapps.sap.hana.ondemand.com"
+    destinations: >
+      [{
+         "name":"media-app-destination",
+         "url" :"https://media-app.cfapps.sap.hana.ondemand.com",
+         "forwardAuthToken": true},
+         {
+         "name":"front-end-destination",
+         "url" :"https://ui-media-app.cfapps.sap.hana.ondemand.com",
+         "forwardAuthToken": true},
+         {
+         "name":"addmgr-destination",
+         "url" :"https://address-mgr.cfapps.sap.hana.ondemand.com",
+         "forwardAuthToken": true},
+         {
+         "name":"s4-destination",
+         "url" :"https://businesspartnerretrival.cfapps.sap.hana.ondemand.com",
+         "forwardAuthToken": true}
+      ]
+  services:
+    - applogs
+    - uaamedia

@@ -1,0 +1,46 @@
+{
+  "welcomeFile": "/res/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+  	"logoutEndpoint": "/logout",
+  	"logoutPage": "/res/index.html"
+  	},
+  "routes": [
+    {
+      "source": "/res/(.*)",
+      "target": "$1",
+      "localDir": "resources",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/api/",
+      "target": "/api/",
+      "destination": "media-app-destination",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "/frontend/(.*)",
+      "target": "$1",
+      "localDir": "webapp",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/health",
+      "target": "/health",
+      "destination": "media-app-destination",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/addressmgr",
+      "target": "/address-manager",
+      "destination": "addmgr-destination",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/getbupa",
+      "target": "/businesspartners",
+      "destination": "s4-destination",
+      "authenticationType": "xsuaa"
+    }
+  ]
+}

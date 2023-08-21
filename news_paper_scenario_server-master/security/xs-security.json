@@ -1,0 +1,50 @@
+{
+	"xsappname": "media-app",
+	"description": "Media Application",
+	"tenant-mode": "shared",
+	"scopes": [{
+			"name": "$XSAPPNAME.Display",
+			"description": "Display Entity"
+		},
+		{
+			"name": "$XSAPPNAME.Update",
+			"description": "Update Entity"
+		},
+		{
+			"name": "$XSAPPNAME.PersonalDataManagerUser",
+			"description": "Authority for Personal Data Manager to access the application",
+			"grant-as-authority-to-apps": [
+				"pdm-personal-data-manager-service-clone!b11814|personal-data-manager!b3245"
+			]
+		},
+		{
+			"name": "$XSAPPNAME.retention.manager",
+			"description": "Authority for Retention manager service to access the application",
+			"grant-as-authority-to-apps": [
+				"retention-manager!t310",
+				"media-app!b11814|gdpr-retention-engine-DEVELOPMENT!b310"
+			]
+		}
+
+	],
+	"role-templates": [{
+			"name": "Viewer",
+			"description": "View Entity",
+			"scope-references": [
+				"$XSAPPNAME.Display",
+				"$XSAPPNAME.PersonalDataManagerUser",
+				"$XSAPPNAME.retention.manager"
+			]
+		},
+		{
+			"name": "Advertiser",
+			"description": "Maintain Entity",
+			"scope-references": [
+				"$XSAPPNAME.Display",
+				"$XSAPPNAME.Update",
+				"$XSAPPNAME.PersonalDataManagerUser",
+				"$XSAPPNAME.retention.manager"
+			]
+		}
+	]
+}

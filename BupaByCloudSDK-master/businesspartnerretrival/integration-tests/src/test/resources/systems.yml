@@ -1,0 +1,9 @@
+---
+erp:
+  default: "ERP_SYSTEM"
+  systems:
+    - alias: "ERP_SYSTEM"
+      uri: "https://my300098.s4hana.ondemand.com"
+#      proxy: "http://proxy:8080"
+    - alias: "MOCK_SYSTEM"
+      uri: "http://localhost:3000"

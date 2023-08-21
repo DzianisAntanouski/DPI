@@ -1,0 +1,186 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="TestUIApp2.controller.edition.EditionDetails">
+	<Page id="detailEditionPage" showNavButton="true" navButtonPress="onNavBack" class="sapUiFioriObjectPage" title="{i18n>detailEditionTitle}">
+		<content>
+			<ObjectHeader title="Edition ID: {editions>editionID}" intro="Magazine ID: {editions>magazineID}" introActive="true" titleActive="true" id="editDetailsHeaderId"/>
+			<IconTabBar select="onDetailEditionsSelect" id="idIconTabBar">
+				<items>
+					<IconTabFilter key="detailEditions" icon="sap-icon://newspaper" tooltip="Edition Details">
+						<content>
+							<f:SimpleForm id="detailEditionForm" minWidth="1024" maxContainerCols="2" editable="false" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1">
+								<f:content>
+									<Label id="eeditionId" labelFor="text0" text="Edition Id"/>
+									<Text id="eteditionID" text="{editions>editionID}"/>
+									<Label id="editionDescriptionId" labelFor="text1" text="Description"/>
+									<Text id="etdescription" text="{editions>description}"/>
+									<Label id="customerMagazineId" labelFor="text1" text="Magazine Id"/>
+									<Text id="etmagazineID" text="{editions>magazineID}"/>
+								</f:content>
+							</f:SimpleForm>
+						</content>
+					</IconTabFilter>
+				</items>
+				<items>
+					<IconTabFilter key="detailArticles" icon="sap-icon://crm-service-manager" tooltip="Articles list">
+						<content>
+						    <Button text="New" width="100px" id="__button2" icon="sap-icon://add" press="onArticleAdd"/>
+						    <Table noDataText="No text" id="articleTableId" items="{path: 'articles>/', sorter: {path: 'articleID'}}">
+						        <items>
+					            	<ColumnListItem id="articleListId" type="Active" press="onArticleSelect">
+						                <cells>
+						                    <Text text="{articles>articleID}"/>
+						                    <Text text="{articles>description}"/>
+						                    <Text text="{articles>author}"/>
+						                    <Text text="{articles>editionID}"/>
+						            	</cells>
+						            </ColumnListItem>
+						        </items>
+						        <columns>
+						            <Column id="articleId">
+						                <header>
+						                    <Label text="Article ID" id="tarticleId"/>
+						                </header>
+						            </Column>
+						            <Column id="descriptionId">
+						                <header>
+						                    <Label text="Description" id="tdescriptionId"/>
+						                </header>
+						            </Column>
+						            <Column id="authorId">
+						                <header>
+						                    <Label text="Author" id="tauthorId"/>
+						                </header>
+						            </Column>
+						            <Column id="editionId">
+						                <header>
+						                    <Label text="Edition ID" id="teditionId"/>
+						                </header>
+						            </Column></columns></Table>
+						    <Button text="Edit" width="100px" id="__button1" icon="sap-icon://edit" press="onArticleEdit"/>
+						    <Button text="Delete" width="100px" id="__button0" icon="sap-icon://delete" press="onArticleDelete"/>
+						</content>
+					</IconTabFilter>
+				</items>
+				<items>
+					<IconTabFilter key="detailSubscription" icon="sap-icon://clinical-tast-tracker" tooltip="Subscriptions list">
+						<content>
+						    <Button text="New" width="100px" id="subAddid" icon="sap-icon://add" press="onSubscriptionAdd"/>
+						    <Table noDataText="No text" id="subscriptionTableId" items="{path: 'subscriptions>/', sorter: {path:'subscription_ID'}}">
+						        <items>
+					            	<ColumnListItem id="subscriptionListId" type="Active" press="onSubscriptionSelect">
+						                <cells>
+						                    <Text text="{subscriptions>subscription_ID}"/>
+						                    <Text	text="{path : 'subscriptions>startDate',
+																type: 'sap.ui.model.type.Date',
+																formatOptions: 
+																{	source: { pattern: 'yyyy-MM-ddTHH:mm:ss'},
+    																			pattern: 'MMM d, yyyy'}
+																}"/>
+											<Text	text="{path : 'subscriptions>endDate',
+																type: 'sap.ui.model.type.Date',
+																formatOptions: 
+																{	source: { pattern: 'yyyy-MM-ddTHH:mm:ss'},
+    																			pattern: 'MMM d, yyyy'}
+																}"/>
+						                    <Text text="{subscriptions>subscriptionType/subscriptionTypeId}"/>
+						                    <Text text="{subscriptions>customerID}"/>
+						                    <Text text="{subscriptions>magazineID}"/>
+						            	</cells>
+						            </ColumnListItem>
+						        </items>
+						        <columns>
+						            <Column id="subscriptionId">
+						                <header>
+						                    <Label text="Subscription ID" id="tsubscriptionId"/>
+						                </header>
+						            </Column>
+						            <Column id="startdateId">
+						                <header>
+						                    <Label text="Start Date" id="tstartdateId"/>
+						                </header>
+						            </Column>
+						            <Column id="enddateId">
+						                <header>
+						                    <Label text="End Date" id="tenddateId"/>
+						                </header>
+						            </Column>
+						            <Column id="subscriptionTypeId">
+						                <header>
+						                    <Label text="Subscription Type ID" id="tsubscriptionTypeId"/>
+						                </header>
+						            </Column>
+						            <Column id="customerId">
+						                <header>
+						                    <Label text="Customer ID" id="tcustomerId"/>
+						                </header>
+						            </Column>
+						            <Column id="magazineId">
+						                <header>
+						                    <Label text="Magazine ID" id="tmagazineId"/>
+						                </header>
+						            </Column></columns></Table>
+						    <Button text="Edit" width="100px" id="subeditid" icon="sap-icon://edit" press="onSubscriptionEdit"/>
+						    <Button text="Delete" width="100px" id="subDeleteid" icon="sap-icon://delete" press="onSubscriptionDelete"/>
+						</content>
+					</IconTabFilter>
+				</items>
+				<items>
+					<IconTabFilter key="detailAdvertisement" icon="sap-icon://activity-items" tooltip="Advertisements list">
+						<content>
+						    <Button text="New" width="100px" id="advAddid" icon="sap-icon://add" press="onAdvertisementAdd"/>
+						    <Table noDataText="No text" id="advertisementTableId" items="{path: 'advertisements>/', sorter: {path: 'advertisement_ID'}}">
+						        <items>
+					            	<ColumnListItem id="advertisementListId" type="Active" press="onAdvertisementSelect">
+						                <cells>
+						                    <Text text="{advertisements>advertisement_ID}"/>
+						                    <Text text="{advertisements>description}"/>
+						                    <Text text="{advertisements>author}"/>
+						                    <Text text="{advertisements>advertisementType/advertisementTypeId}"/>
+						                    <Text text="{advertisements>magazineID}"/>
+						            	</cells>
+						            </ColumnListItem>
+						        </items>
+						        <columns>
+						            <Column id="advertisementId">
+						                <header>
+						                    <Label text="Advertisement ID" id="tadvertisementId"/>
+						                </header>
+						            </Column>
+						            <Column id="adescriptionId">
+						                <header>
+						                    <Label text="Description" id="tadescriptionId"/>
+						                </header>
+						            </Column>
+						            <Column id="aauthorId">
+						                <header>
+						                    <Label text="Author" id="taauthorId"/>
+						                </header>
+						            </Column>
+						            <Column id="advertisementTypeId">
+						                <header>
+						                    <Label text="Advertisement Type ID" id="tadvertisementTypeId"/>
+						                </header>
+						            </Column>
+						            <Column id="amagazineId">
+						                <header>
+						                    <Label text="Magazine ID" id="tamagazineId"/>
+						                </header>
+						            </Column></columns></Table>
+						    <Button text="Edit" width="100px" id="adveditid" icon="sap-icon://edit" press="onAdvertisementEdit"/>
+						    <Button text="Delete" width="100px" id="advDeleteid" icon="sap-icon://delete" press="onAdvertisementDelete"/>
+						</content>
+					</IconTabFilter>  
+					
+				</items>	
+			</IconTabBar>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button id="EditButtonId" text="Edit" icon="sap-icon://edit" press="onEditionEdit"/>
+				<Button id="SaveButtonId" text="Save" type="Emphasized" visible="false" press="onEditionSave"/>
+				<Button id="CancelButtonId" text="Cancel" visible="false" press="onCancel"/>
+				<Button id="DeleteButtonId" text="Delete" icon="sap-icon://delete" press="onEditionDelete"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

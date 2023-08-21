@@ -1,0 +1,62 @@
+{
+  "xs-security": {
+    "xsappname": "media-app",
+    "authorities": [
+      "$ACCEPT_GRANTED_AUTHORITIES"
+      ]
+  },
+  "retention-configs": {
+    "applicationGroupName": "com-sap-showcase-media-app1",
+    "applicationGroupDescription": "Showcase Media App V1",
+    "authority": "na-2e7b1631-fa2a-47f6-bbac-1aae245e976a!t11814.retention.manager",
+    "dataSubjects": [
+      {
+        "dataSubjectRole": "Customer",
+        "dataSubjectDescription": "Customer Data Subject Role",
+        "dataSubjectBaseURL": "https://media-app-v1.cfapps.sap.hana.ondemand.com/api/dpp/v1",
+        "dataSubjectDeletionEndPoint": "/customers/deleteDataSubject",
+        "legalEntity": {
+          "legalEntity": "Tenant",
+          "legalEntityDescription": "Tenant",
+          "legalEntityValueHelpEndPoint": "/tenants"
+        },
+        "legalGrounds": [
+          {
+            "legalGround": "Subscription",
+            "legalGroundDescription": "Subscription",
+            "legalGroundBaseURL": "https://media-app-v1.cfapps.sap.hana.ondemand.com/api/dpp/v1/subscriptions",
+            "dataSubjectEndofBusinessEndPoint": "/dataSubjectEndOfBusiness",
+            "dataSubjectLegalEntitiesEndPoint": "/dataSubjectLegalEntities",
+            "dataSubjectLastRetentionStartDatesEndPoint": "/dataSubjectLastRetentionStartDates",
+            "dataSubjectsEndofResidenceEndPoint": "/dataSubjectsEndofResidence",
+            "dataSubjectsEndofResidenceConfirmationEndPoint": "/dataSubjectsEndofResidenceConfirmation",
+            "dataSubjectLegalGroundDeletionEndPoint": "/dataSubjectLegalGroundDeletion",
+            "startTimes": [
+              {
+                "startTime": "endDate",
+                "startTimeDescription": "Subscription End Date"
+              }
+            ]
+          },
+          {
+            "legalGround": "Order",
+            "legalGroundDescription": "Order",
+            "legalGroundBaseURL": "https://media-app-v1.cfapps.sap.hana.ondemand.com/api/dpp/v1/orders",
+            "dataSubjectEndofBusinessEndPoint": "/dataSubjectEndOfBusiness",
+            "dataSubjectLegalEntitiesEndPoint": "/dataSubjectLegalEntities",
+            "dataSubjectLastRetentionStartDatesEndPoint": "/dataSubjectLastRetentionStartDates",
+            "dataSubjectsEndofResidenceEndPoint": "/dataSubjectsEndofResidence",
+            "dataSubjectsEndofResidenceConfirmationEndPoint": "/dataSubjectsEndofResidenceConfirmation",
+            "dataSubjectLegalGroundDeletionEndPoint": "/dataSubjectLegalGroundDeletion",
+            "startTimes": [
+              {
+                "startTime": "createdAt",
+                "startTimeDescription": "Date on which the order was created"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

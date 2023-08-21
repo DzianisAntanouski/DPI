@@ -1,0 +1,52 @@
+---
+applications:
+
+- name: media-app
+  routes:
+  - route: ((backend_host)).((subdomain))
+  memory: 800M
+  path: server/target/media-app-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  timeout: 180
+
+  env:
+    SAP_JWT_TRUST_ACL: >
+      [{"clientid":"*","identityzone": "*"}]
+    JBP_CONFIG_DEBUG: '{enabled: true}'
+
+  services:
+  - my-destination
+  - auditlog   
+  - applogs
+  - psqlmedia1
+  - uaamedia
+  - consent-repository-service
+  
+
+- name: approuter-media
+  routes:
+  - route: ((tenant_id))-approuter-media.((subdomain))
+  path: web
+  buildpack: nodejs_buildpack
+  memory: 128M
+  timeout: 180
+  env:
+    XSAPPNAME: media-app
+    TENANT_HOST_PATTERN: "(.*)-approuter-media.((subdomain))"
+    destinations: >
+      [{
+         "name":"media-app-destination",
+         "url" :"https://((backend_host)).((subdomain))",
+         "forwardAuthToken": true},
+         {
+         "name":"addmgr-destination",
+         "url" :"https://((addmgr_host)).((subdomain))",
+         "forwardAuthToken": true},
+         {
+         "name":"s4-destination",
+         "url" :"https://((bupa_host)).((subdomain))",
+         "forwardAuthToken": true}
+      ]
+  services:
+    - applogs
+    - uaamedia

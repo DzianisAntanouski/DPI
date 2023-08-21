@@ -1,0 +1,1766 @@
+[
+    {
+        "subscriptionID": "1",
+        "customerID": "55",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2011-07-21",
+        "endDate": "2023-03-05"
+    },
+    {
+        "subscriptionID": "2",
+        "customerID": "50",
+        "magazineTitle": "Linguistica Uralica",
+        "startDate": "2020-11-22",
+        "endDate": "2027-01-05"
+    },
+    {
+        "subscriptionID": "3",
+        "customerID": "67",
+        "magazineTitle": "LIFE",
+        "startDate": "2012-05-29",
+        "endDate": "2014-07-22"
+    },
+    {
+        "subscriptionID": "4",
+        "customerID": "20",
+        "magazineTitle": "Popular Science",
+        "startDate": "2005-06-11",
+        "endDate": "2010-04-20"
+    },
+    {
+        "subscriptionID": "5",
+        "customerID": "40",
+        "magazineTitle": "Trames",
+        "startDate": "2009-01-14",
+        "endDate": "2018-04-04"
+    },
+    {
+        "subscriptionID": "6",
+        "customerID": "20",
+        "magazineTitle": "Acta Historica Tallinnensia",
+        "startDate": "2008-09-14",
+        "endDate": "2008-09-27"
+    },
+    {
+        "subscriptionID": "7",
+        "customerID": "48",
+        "magazineTitle": "Acta Historica Tallinnensia",
+        "startDate": "2013-10-15",
+        "endDate": "2024-12-08"
+    },
+    {
+        "subscriptionID": "8",
+        "customerID": "73",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2010-11-19",
+        "endDate": "2030-03-13"
+    },
+    {
+        "subscriptionID": "9",
+        "customerID": "27",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2010-09-02",
+        "endDate": "2022-08-02"
+    },
+    {
+        "subscriptionID": "10",
+        "customerID": "54",
+        "magazineTitle": "Rowing News",
+        "startDate": "2006-11-20",
+        "endDate": "2019-01-15"
+    },
+    {
+        "subscriptionID": "11",
+        "customerID": "53",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2005-09-28",
+        "endDate": "2019-05-27"
+    },
+    {
+        "subscriptionID": "12",
+        "customerID": "19",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2015-10-10",
+        "endDate": "2033-08-18"
+    },
+    {
+        "subscriptionID": "13",
+        "customerID": "83",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2015-11-23",
+        "endDate": "2026-06-06"
+    },
+    {
+        "subscriptionID": "14",
+        "customerID": "68",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2019-10-31",
+        "endDate": "2037-01-04"
+    },
+    {
+        "subscriptionID": "15",
+        "customerID": "43",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2020-10-28",
+        "endDate": "2032-01-03"
+    },
+    {
+        "subscriptionID": "16",
+        "customerID": "87",
+        "magazineTitle": "Rowing News",
+        "startDate": "2008-02-22",
+        "endDate": "2020-08-08"
+    },
+    {
+        "subscriptionID": "17",
+        "customerID": "35",
+        "magazineTitle": "Rowing News",
+        "startDate": "2016-11-09",
+        "endDate": "2031-04-21"
+    },
+    {
+        "subscriptionID": "18",
+        "customerID": "8",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2014-02-17",
+        "endDate": "2028-04-07"
+    },
+    {
+        "subscriptionID": "19",
+        "customerID": "49",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2006-02-07",
+        "endDate": "2018-02-20"
+    },
+    {
+        "subscriptionID": "20",
+        "customerID": "36",
+        "magazineTitle": "Rowing News",
+        "startDate": "2005-08-23",
+        "endDate": "2018-04-15"
+    },
+    {
+        "subscriptionID": "21",
+        "customerID": "78",
+        "magazineTitle": "Rowing News",
+        "startDate": "2011-04-28",
+        "endDate": "2029-08-23"
+    },
+    {
+        "subscriptionID": "22",
+        "customerID": "41",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2008-11-04",
+        "endDate": "2027-07-19"
+    },
+    {
+        "subscriptionID": "23",
+        "customerID": "26",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2018-07-06",
+        "endDate": "2019-11-06"
+    },
+    {
+        "subscriptionID": "24",
+        "customerID": "77",
+        "magazineTitle": "Rowing News",
+        "startDate": "2017-03-22",
+        "endDate": "2028-01-04"
+    },
+    {
+        "subscriptionID": "25",
+        "customerID": "69",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2014-05-03",
+        "endDate": "2032-05-07"
+    },
+    {
+        "subscriptionID": "26",
+        "customerID": "58",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2014-12-05",
+        "endDate": "2018-07-29"
+    },
+    {
+        "subscriptionID": "27",
+        "customerID": "78",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2005-06-09",
+        "endDate": "2012-07-25"
+    },
+    {
+        "subscriptionID": "28",
+        "customerID": "36",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2008-09-06",
+        "endDate": "2021-08-27"
+    },
+    {
+        "subscriptionID": "29",
+        "customerID": "44",
+        "magazineTitle": "Rowing News",
+        "startDate": "2017-04-19",
+        "endDate": "2022-04-27"
+    },
+    {
+        "subscriptionID": "30",
+        "customerID": "87",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2006-12-31",
+        "endDate": "2015-05-02"
+    },
+    {
+        "subscriptionID": "31",
+        "customerID": "44",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2018-02-26",
+        "endDate": "2024-11-14"
+    },
+    {
+        "subscriptionID": "32",
+        "customerID": "11",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2010-10-03",
+        "endDate": "2029-10-22"
+    },
+    {
+        "subscriptionID": "33",
+        "customerID": "35",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2013-05-09",
+        "endDate": "2014-05-07"
+    },
+    {
+        "subscriptionID": "34",
+        "customerID": "22",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2011-05-27",
+        "endDate": "2019-02-07"
+    },
+    {
+        "subscriptionID": "35",
+        "customerID": "100",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2007-05-24",
+        "endDate": "2011-12-07"
+    },
+    {
+        "subscriptionID": "36",
+        "customerID": "30",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2009-02-02",
+        "endDate": "2014-05-22"
+    },
+    {
+        "subscriptionID": "37",
+        "customerID": "75",
+        "magazineTitle": "Mother Jones Magazine",
+        "startDate": "2020-02-26",
+        "endDate": "2025-10-09"
+    },
+    {
+        "subscriptionID": "38",
+        "customerID": "93",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2012-10-02",
+        "endDate": "2021-05-20"
+    },
+    {
+        "subscriptionID": "39",
+        "customerID": "88",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2005-02-10",
+        "endDate": "2024-07-15"
+    },
+    {
+        "subscriptionID": "40",
+        "customerID": "33",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2006-12-19",
+        "endDate": "2008-12-25"
+    },
+    {
+        "subscriptionID": "41",
+        "customerID": "75",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2010-05-29",
+        "endDate": "2030-02-09"
+    },
+    {
+        "subscriptionID": "42",
+        "customerID": "72",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2017-08-31",
+        "endDate": "2020-12-20"
+    },
+    {
+        "subscriptionID": "43",
+        "customerID": "28",
+        "magazineTitle": "Weekly World News",
+        "startDate": "2013-05-12",
+        "endDate": "2028-07-21"
+    },
+    {
+        "subscriptionID": "44",
+        "customerID": "74",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2020-10-08",
+        "endDate": "2023-03-17"
+    },
+    {
+        "subscriptionID": "45",
+        "customerID": "36",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2014-05-04",
+        "endDate": "2015-04-17"
+    },
+    {
+        "subscriptionID": "46",
+        "customerID": "86",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2015-08-23",
+        "endDate": "2033-04-07"
+    },
+    {
+        "subscriptionID": "47",
+        "customerID": "91",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2010-11-24",
+        "endDate": "2015-06-27"
+    },
+    {
+        "subscriptionID": "48",
+        "customerID": "15",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2006-09-01",
+        "endDate": "2020-07-09"
+    },
+    {
+        "subscriptionID": "49",
+        "customerID": "37",
+        "magazineTitle": "Competition Science Vision",
+        "startDate": "2012-11-13",
+        "endDate": "2026-03-06"
+    },
+    {
+        "subscriptionID": "50",
+        "customerID": "51",
+        "magazineTitle": "The Rotarian",
+        "startDate": "2019-04-15",
+        "endDate": "2019-08-24"
+    },
+    {
+        "subscriptionID": "51",
+        "customerID": "87",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2014-10-14",
+        "endDate": "2033-04-23"
+    },
+    {
+        "subscriptionID": "52",
+        "customerID": "3",
+        "magazineTitle": "LIFE",
+        "startDate": "2007-01-15",
+        "endDate": "2017-09-04"
+    },
+    {
+        "subscriptionID": "53",
+        "customerID": "1",
+        "magazineTitle": "Computerworld",
+        "startDate": "2019-06-07",
+        "endDate": "2021-04-21"
+    },
+    {
+        "subscriptionID": "54",
+        "customerID": "65",
+        "magazineTitle": "Computerworld",
+        "startDate": "2017-12-04",
+        "endDate": "2033-09-24"
+    },
+    {
+        "subscriptionID": "55",
+        "customerID": "48",
+        "magazineTitle": "Computerworld",
+        "startDate": "2010-01-06",
+        "endDate": "2026-12-12"
+    },
+    {
+        "subscriptionID": "56",
+        "customerID": "52",
+        "magazineTitle": "Computerworld",
+        "startDate": "2016-08-29",
+        "endDate": "2030-01-11"
+    },
+    {
+        "subscriptionID": "57",
+        "customerID": "100",
+        "magazineTitle": "Computerworld",
+        "startDate": "2020-01-10",
+        "endDate": "2028-08-05"
+    },
+    {
+        "subscriptionID": "58",
+        "customerID": "53",
+        "magazineTitle": "SPIN",
+        "startDate": "2019-03-15",
+        "endDate": "2035-04-01"
+    },
+    {
+        "subscriptionID": "59",
+        "customerID": "35",
+        "magazineTitle": "Computerworld",
+        "startDate": "2006-12-01",
+        "endDate": "2016-10-26"
+    },
+    {
+        "subscriptionID": "60",
+        "customerID": "62",
+        "magazineTitle": "New York Magazine",
+        "startDate": "2009-11-03",
+        "endDate": "2023-03-07"
+    },
+    {
+        "subscriptionID": "61",
+        "customerID": "51",
+        "magazineTitle": "Islands Magazine",
+        "startDate": "2010-06-14",
+        "endDate": "2024-04-14"
+    },
+    {
+        "subscriptionID": "62",
+        "customerID": "51",
+        "magazineTitle": "Riegos y Drenajes",
+        "startDate": "2016-05-17",
+        "endDate": "2024-07-17"
+    },
+    {
+        "subscriptionID": "63",
+        "customerID": "77",
+        "magazineTitle": "Kenya Gazette",
+        "startDate": "2014-05-07",
+        "endDate": "2030-12-16"
+    },
+    {
+        "subscriptionID": "64",
+        "customerID": "8",
+        "magazineTitle": "Orange Coast Magazine",
+        "startDate": "2015-01-08",
+        "endDate": "2022-01-08"
+    },
+    {
+        "subscriptionID": "65",
+        "customerID": "96",
+        "magazineTitle": "Riegos y Drenajes",
+        "startDate": "2014-11-02",
+        "endDate": "2021-03-31"
+    },
+    {
+        "subscriptionID": "66",
+        "customerID": "48",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2014-07-06",
+        "endDate": "2027-09-30"
+    },
+    {
+        "subscriptionID": "67",
+        "customerID": "80",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2010-02-11",
+        "endDate": "2023-09-10"
+    },
+    {
+        "subscriptionID": "68",
+        "customerID": "28",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2015-09-29",
+        "endDate": "2032-10-19"
+    },
+    {
+        "subscriptionID": "69",
+        "customerID": "5",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2005-03-11",
+        "endDate": "2005-10-21"
+    },
+    {
+        "subscriptionID": "70",
+        "customerID": "72",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2019-06-29",
+        "endDate": "2025-01-26"
+    },
+    {
+        "subscriptionID": "71",
+        "customerID": "64",
+        "magazineTitle": "Jet",
+        "startDate": "2014-04-09",
+        "endDate": "2016-06-05"
+    },
+    {
+        "subscriptionID": "72",
+        "customerID": "47",
+        "magazineTitle": "Prevention",
+        "startDate": "2017-07-23",
+        "endDate": "2037-01-30"
+    },
+    {
+        "subscriptionID": "73",
+        "customerID": "59",
+        "magazineTitle": "New York Magazine",
+        "startDate": "2014-02-22",
+        "endDate": "2028-07-25"
+    },
+    {
+        "subscriptionID": "74",
+        "customerID": "74",
+        "magazineTitle": "LIFE",
+        "startDate": "2015-04-05",
+        "endDate": "2025-03-08"
+    },
+    {
+        "subscriptionID": "75",
+        "customerID": "79",
+        "magazineTitle": "Mountain Bike",
+        "startDate": "2009-08-18",
+        "endDate": "2019-05-08"
+    },
+    {
+        "subscriptionID": "76",
+        "customerID": "53",
+        "magazineTitle": "Mountain Bike",
+        "startDate": "2006-04-07",
+        "endDate": "2015-02-19"
+    },
+    {
+        "subscriptionID": "77",
+        "customerID": "6",
+        "magazineTitle": "Mountain Bike",
+        "startDate": "2014-12-31",
+        "endDate": "2026-08-29"
+    },
+    {
+        "subscriptionID": "78",
+        "customerID": "75",
+        "magazineTitle": "Mountain Bike",
+        "startDate": "2020-02-28",
+        "endDate": "2038-11-17"
+    },
+    {
+        "subscriptionID": "79",
+        "customerID": "66",
+        "magazineTitle": "Mountain Bike",
+        "startDate": "2005-10-05",
+        "endDate": "2014-08-17"
+    },
+    {
+        "subscriptionID": "80",
+        "customerID": "32",
+        "magazineTitle": "Mountain Bike",
+        "startDate": "2015-05-02",
+        "endDate": "2016-11-01"
+    },
+    {
+        "subscriptionID": "81",
+        "customerID": "32",
+        "magazineTitle": "Mountain Bike",
+        "startDate": "2007-12-04",
+        "endDate": "2015-01-16"
+    },
+    {
+        "subscriptionID": "82",
+        "customerID": "43",
+        "magazineTitle": "Ebony",
+        "startDate": "2017-11-26",
+        "endDate": "2033-11-09"
+    },
+    {
+        "subscriptionID": "83",
+        "customerID": "25",
+        "magazineTitle": "Popular Science",
+        "startDate": "2010-05-10",
+        "endDate": "2027-10-30"
+    },
+    {
+        "subscriptionID": "84",
+        "customerID": "75",
+        "magazineTitle": "CIO",
+        "startDate": "2020-03-29",
+        "endDate": "2026-08-23"
+    },
+    {
+        "subscriptionID": "85",
+        "customerID": "30",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2005-07-07",
+        "endDate": "2008-05-26"
+    },
+    {
+        "subscriptionID": "86",
+        "customerID": "19",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2009-02-06",
+        "endDate": "2029-07-02"
+    },
+    {
+        "subscriptionID": "87",
+        "customerID": "25",
+        "magazineTitle": "AUUG Conference Proceedings",
+        "startDate": "2012-09-19",
+        "endDate": "2013-10-15"
+    },
+    {
+        "subscriptionID": "88",
+        "customerID": "20",
+        "magazineTitle": "PC Mag",
+        "startDate": "2010-05-02",
+        "endDate": "2017-10-18"
+    },
+    {
+        "subscriptionID": "89",
+        "customerID": "79",
+        "magazineTitle": "CIO ",
+        "startDate": "2005-01-14",
+        "endDate": "2015-05-03"
+    },
+    {
+        "subscriptionID": "90",
+        "customerID": "7",
+        "magazineTitle": "CIO",
+        "startDate": "2019-05-25",
+        "endDate": "2032-02-10"
+    },
+    {
+        "subscriptionID": "91",
+        "customerID": "84",
+        "magazineTitle": "CIO",
+        "startDate": "2020-02-01",
+        "endDate": "2024-04-22"
+    },
+    {
+        "subscriptionID": "92",
+        "customerID": "4",
+        "magazineTitle": "AUUG Conference Proceedings",
+        "startDate": "2019-01-20",
+        "endDate": "2021-05-30"
+    },
+    {
+        "subscriptionID": "93",
+        "customerID": "99",
+        "magazineTitle": "CIO ",
+        "startDate": "2006-05-30",
+        "endDate": "2015-02-19"
+    },
+    {
+        "subscriptionID": "94",
+        "customerID": "90",
+        "magazineTitle": "CIO ",
+        "startDate": "2005-10-06",
+        "endDate": "2016-11-12"
+    },
+    {
+        "subscriptionID": "95",
+        "customerID": "82",
+        "magazineTitle": "CIO",
+        "startDate": "2011-04-06",
+        "endDate": "2030-08-11"
+    },
+    {
+        "subscriptionID": "96",
+        "customerID": "1",
+        "magazineTitle": "CIO",
+        "startDate": "2020-07-31",
+        "endDate": "2032-04-09"
+    },
+    {
+        "subscriptionID": "97",
+        "customerID": "23",
+        "magazineTitle": "Bulletin of the Atomic Scientists",
+        "startDate": "2007-11-06",
+        "endDate": "2016-10-05"
+    },
+    {
+        "subscriptionID": "98",
+        "customerID": "54",
+        "magazineTitle": "CIO",
+        "startDate": "2007-08-24",
+        "endDate": "2018-02-01"
+    },
+    {
+        "subscriptionID": "99",
+        "customerID": "62",
+        "magazineTitle": "AUUG Conference Proceedings",
+        "startDate": "2020-06-20",
+        "endDate": "2029-10-03"
+    },
+    {
+        "subscriptionID": "100",
+        "customerID": "28",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2007-04-12",
+        "endDate": "2026-05-11"
+    },
+    {
+        "subscriptionID": "101",
+        "customerID": "3",
+        "magazineTitle": "Flying Magazine",
+        "startDate": "2005-01-22",
+        "endDate": "2019-03-24"
+    },
+    {
+        "subscriptionID": "102",
+        "customerID": "86",
+        "magazineTitle": "Flying Magazine",
+        "startDate": "2005-07-29",
+        "endDate": "2021-12-02"
+    },
+    {
+        "subscriptionID": "103",
+        "customerID": "82",
+        "magazineTitle": "CIO",
+        "startDate": "2015-10-11",
+        "endDate": "2025-12-19"
+    },
+    {
+        "subscriptionID": "104",
+        "customerID": "70",
+        "magazineTitle": "Computerworld",
+        "startDate": "2013-06-12",
+        "endDate": "2020-06-01"
+    },
+    {
+        "subscriptionID": "105",
+        "customerID": "85",
+        "magazineTitle": "Microbiology Australia",
+        "startDate": "2010-04-16",
+        "endDate": "2019-02-11"
+    },
+    {
+        "subscriptionID": "106",
+        "customerID": "21",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2011-10-24",
+        "endDate": "2027-11-19"
+    },
+    {
+        "subscriptionID": "107",
+        "customerID": "48",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2012-03-27",
+        "endDate": "2028-05-14"
+    },
+    {
+        "subscriptionID": "108",
+        "customerID": "44",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2009-12-12",
+        "endDate": "2024-11-24"
+    },
+    {
+        "subscriptionID": "109",
+        "customerID": "29",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2010-12-01",
+        "endDate": "2022-07-14"
+    },
+    {
+        "subscriptionID": "110",
+        "customerID": "44",
+        "magazineTitle": "AUUGN",
+        "startDate": "2014-10-25",
+        "endDate": "2023-12-24"
+    },
+    {
+        "subscriptionID": "111",
+        "customerID": "57",
+        "magazineTitle": "LIFE",
+        "startDate": "2005-09-15",
+        "endDate": "2006-04-27"
+    },
+    {
+        "subscriptionID": "112",
+        "customerID": "16",
+        "magazineTitle": "Computerworld",
+        "startDate": "2019-07-09",
+        "endDate": "2039-04-25"
+    },
+    {
+        "subscriptionID": "113",
+        "customerID": "45",
+        "magazineTitle": "LIFE",
+        "startDate": "2016-09-14",
+        "endDate": "2036-07-21"
+    },
+    {
+        "subscriptionID": "114",
+        "customerID": "52",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2007-02-22",
+        "endDate": "2022-01-24"
+    },
+    {
+        "subscriptionID": "115",
+        "customerID": "14",
+        "magazineTitle": "Black Enterprise",
+        "startDate": "2011-06-23",
+        "endDate": "2024-11-21"
+    },
+    {
+        "subscriptionID": "116",
+        "customerID": "38",
+        "magazineTitle": "Maximum PC",
+        "startDate": "2014-02-26",
+        "endDate": "2026-11-26"
+    },
+    {
+        "subscriptionID": "117",
+        "customerID": "70",
+        "magazineTitle": "Working Mother",
+        "startDate": "2015-08-22",
+        "endDate": "2017-09-15"
+    },
+    {
+        "subscriptionID": "118",
+        "customerID": "12",
+        "magazineTitle": "Black Enterprise",
+        "startDate": "2005-03-13",
+        "endDate": "2012-08-21"
+    },
+    {
+        "subscriptionID": "119",
+        "customerID": "77",
+        "magazineTitle": "LIFE",
+        "startDate": "2014-03-18",
+        "endDate": "2025-08-25"
+    },
+    {
+        "subscriptionID": "120",
+        "customerID": "90",
+        "magazineTitle": "CIO",
+        "startDate": "2010-12-26",
+        "endDate": "2028-02-24"
+    },
+    {
+        "subscriptionID": "121",
+        "customerID": "8",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2018-04-11",
+        "endDate": "2037-10-30"
+    },
+    {
+        "subscriptionID": "122",
+        "customerID": "92",
+        "magazineTitle": "New York Magazine",
+        "startDate": "2005-08-26",
+        "endDate": "2024-06-25"
+    },
+    {
+        "subscriptionID": "123",
+        "customerID": "76",
+        "magazineTitle": "Computerworld",
+        "startDate": "2020-05-23",
+        "endDate": "2022-07-01"
+    },
+    {
+        "subscriptionID": "124",
+        "customerID": "82",
+        "magazineTitle": "Computerworld",
+        "startDate": "2020-09-11",
+        "endDate": "2024-03-31"
+    },
+    {
+        "subscriptionID": "125",
+        "customerID": "24",
+        "magazineTitle": "Computerworld",
+        "startDate": "2019-03-19",
+        "endDate": "2032-03-10"
+    },
+    {
+        "subscriptionID": "126",
+        "customerID": "91",
+        "magazineTitle": "Computerworld",
+        "startDate": "2006-05-26",
+        "endDate": "2023-11-10"
+    },
+    {
+        "subscriptionID": "127",
+        "customerID": "37",
+        "magazineTitle": "LIFE",
+        "startDate": "2013-01-11",
+        "endDate": "2020-11-22"
+    },
+    {
+        "subscriptionID": "128",
+        "customerID": "38",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2019-07-31",
+        "endDate": "2037-02-20"
+    },
+    {
+        "subscriptionID": "129",
+        "customerID": "3",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2012-10-08",
+        "endDate": "2031-03-31"
+    },
+    {
+        "subscriptionID": "130",
+        "customerID": "12",
+        "magazineTitle": "Network World",
+        "startDate": "2007-03-10",
+        "endDate": "2027-07-17"
+    },
+    {
+        "subscriptionID": "131",
+        "customerID": "51",
+        "magazineTitle": "Computerworld",
+        "startDate": "2009-07-17",
+        "endDate": "2021-02-25"
+    },
+    {
+        "subscriptionID": "132",
+        "customerID": "16",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2019-11-09",
+        "endDate": "2034-01-30"
+    },
+    {
+        "subscriptionID": "133",
+        "customerID": "50",
+        "magazineTitle": "Computerworld",
+        "startDate": "2007-05-23",
+        "endDate": "2020-05-03"
+    },
+    {
+        "subscriptionID": "134",
+        "customerID": "45",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2017-10-17",
+        "endDate": "2018-03-13"
+    },
+    {
+        "subscriptionID": "135",
+        "customerID": "52",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2011-06-29",
+        "endDate": "2029-11-09"
+    },
+    {
+        "subscriptionID": "136",
+        "customerID": "85",
+        "magazineTitle": "Computerworld",
+        "startDate": "2018-09-09",
+        "endDate": "2033-09-15"
+    },
+    {
+        "subscriptionID": "137",
+        "customerID": "14",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2011-06-28",
+        "endDate": "2011-07-15"
+    },
+    {
+        "subscriptionID": "138",
+        "customerID": "60",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2020-11-05",
+        "endDate": "2034-05-15"
+    },
+    {
+        "subscriptionID": "139",
+        "customerID": "36",
+        "magazineTitle": "Billboard",
+        "startDate": "2014-02-06",
+        "endDate": "2026-09-09"
+    },
+    {
+        "subscriptionID": "140",
+        "customerID": "97",
+        "magazineTitle": "Billboard",
+        "startDate": "2013-06-02",
+        "endDate": "2032-11-07"
+    },
+    {
+        "subscriptionID": "141",
+        "customerID": "91",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2015-03-05",
+        "endDate": "2016-06-03"
+    },
+    {
+        "subscriptionID": "142",
+        "customerID": "98",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2014-12-09",
+        "endDate": "2021-11-09"
+    },
+    {
+        "subscriptionID": "143",
+        "customerID": "90",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2006-11-05",
+        "endDate": "2015-10-05"
+    },
+    {
+        "subscriptionID": "144",
+        "customerID": "10",
+        "magazineTitle": "Billboard",
+        "startDate": "2016-11-15",
+        "endDate": "2033-02-12"
+    },
+    {
+        "subscriptionID": "145",
+        "customerID": "31",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2007-12-11",
+        "endDate": "2017-04-28"
+    },
+    {
+        "subscriptionID": "146",
+        "customerID": "42",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2016-09-30",
+        "endDate": "2017-07-16"
+    },
+    {
+        "subscriptionID": "147",
+        "customerID": "54",
+        "magazineTitle": "Popular Science",
+        "startDate": "2012-07-01",
+        "endDate": "2030-07-13"
+    },
+    {
+        "subscriptionID": "148",
+        "customerID": "57",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2006-07-05",
+        "endDate": "2015-08-18"
+    },
+    {
+        "subscriptionID": "149",
+        "customerID": "19",
+        "magazineTitle": "Proceedings of the Estonian Academy of Sciences, Physics and Mathematics",
+        "startDate": "2010-09-23",
+        "endDate": "2021-08-06"
+    },
+    {
+        "subscriptionID": "150",
+        "customerID": "77",
+        "magazineTitle": "Proceedings of the Estonian Academy of Sciences, Physics and Mathematics",
+        "startDate": "2016-05-17",
+        "endDate": "2016-10-09"
+    },
+    {
+        "subscriptionID": "151",
+        "customerID": "43",
+        "magazineTitle": "Proceedings of the Estonian Academy of Sciences, Physics and Mathematics",
+        "startDate": "2020-04-12",
+        "endDate": "2028-12-07"
+    },
+    {
+        "subscriptionID": "152",
+        "customerID": "83",
+        "magazineTitle": "Black Enterprise",
+        "startDate": "2015-04-11",
+        "endDate": "2019-12-28"
+    },
+    {
+        "subscriptionID": "153",
+        "customerID": "8",
+        "magazineTitle": "Computerworld",
+        "startDate": "2008-12-25",
+        "endDate": "2013-04-08"
+    },
+    {
+        "subscriptionID": "154",
+        "customerID": "47",
+        "magazineTitle": "Proceedings of the Estonian Academy of Sciences, Engineering",
+        "startDate": "2020-02-13",
+        "endDate": "2032-01-15"
+    },
+    {
+        "subscriptionID": "155",
+        "customerID": "21",
+        "magazineTitle": "Black Enterprise",
+        "startDate": "2017-10-16",
+        "endDate": "2028-06-09"
+    },
+    {
+        "subscriptionID": "156",
+        "customerID": "99",
+        "magazineTitle": "New Scientist",
+        "startDate": "2018-04-25",
+        "endDate": "2038-06-05"
+    },
+    {
+        "subscriptionID": "157",
+        "customerID": "12",
+        "magazineTitle": "Billboard",
+        "startDate": "2017-02-15",
+        "endDate": "2019-10-11"
+    },
+    {
+        "subscriptionID": "158",
+        "customerID": "16",
+        "magazineTitle": "Computation and Applied Mathematics",
+        "startDate": "2019-05-18",
+        "endDate": "2029-01-23"
+    },
+    {
+        "subscriptionID": "159",
+        "customerID": "90",
+        "magazineTitle": "Black Enterprise",
+        "startDate": "2007-03-03",
+        "endDate": "2018-06-10"
+    },
+    {
+        "subscriptionID": "160",
+        "customerID": "5",
+        "magazineTitle": "Black Enterprise",
+        "startDate": "2009-05-27",
+        "endDate": "2022-11-05"
+    },
+    {
+        "subscriptionID": "161",
+        "customerID": "15",
+        "magazineTitle": "Billboard",
+        "startDate": "2016-08-02",
+        "endDate": "2028-04-07"
+    },
+    {
+        "subscriptionID": "162",
+        "customerID": "98",
+        "magazineTitle": "The Advocate",
+        "startDate": "2005-06-26",
+        "endDate": "2017-11-19"
+    },
+    {
+        "subscriptionID": "163",
+        "customerID": "87",
+        "magazineTitle": "New York Magazine",
+        "startDate": "2014-11-26",
+        "endDate": "2031-08-26"
+    },
+    {
+        "subscriptionID": "164",
+        "customerID": "91",
+        "magazineTitle": "Jet",
+        "startDate": "2007-04-01",
+        "endDate": "2015-03-10"
+    },
+    {
+        "subscriptionID": "165",
+        "customerID": "24",
+        "magazineTitle": "Ebony",
+        "startDate": "2020-04-29",
+        "endDate": "2036-07-06"
+    },
+    {
+        "subscriptionID": "166",
+        "customerID": "2",
+        "magazineTitle": "The Crisis",
+        "startDate": "2018-11-08",
+        "endDate": "2032-07-28"
+    },
+    {
+        "subscriptionID": "167",
+        "customerID": "59",
+        "magazineTitle": "Atlanta Magazine",
+        "startDate": "2016-01-06",
+        "endDate": "2036-11-03"
+    },
+    {
+        "subscriptionID": "168",
+        "customerID": "16",
+        "magazineTitle": "Computerworld",
+        "startDate": "2018-09-17",
+        "endDate": "2025-08-13"
+    },
+    {
+        "subscriptionID": "169",
+        "customerID": "56",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2020-02-28",
+        "endDate": "2039-07-04"
+    },
+    {
+        "subscriptionID": "170",
+        "customerID": "68",
+        "magazineTitle": "Mother Jones Magazine",
+        "startDate": "2011-11-27",
+        "endDate": "2013-08-11"
+    },
+    {
+        "subscriptionID": "171",
+        "customerID": "59",
+        "magazineTitle": "Vibe",
+        "startDate": "2014-01-17",
+        "endDate": "2028-05-12"
+    },
+    {
+        "subscriptionID": "172",
+        "customerID": "3",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2011-03-29",
+        "endDate": "2029-10-10"
+    },
+    {
+        "subscriptionID": "173",
+        "customerID": "75",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2015-02-22",
+        "endDate": "2017-05-15"
+    },
+    {
+        "subscriptionID": "174",
+        "customerID": "60",
+        "magazineTitle": "Ebony",
+        "startDate": "2014-03-30",
+        "endDate": "2022-07-17"
+    },
+    {
+        "subscriptionID": "175",
+        "customerID": "34",
+        "magazineTitle": "New York Magazine",
+        "startDate": "2007-07-03",
+        "endDate": "2016-12-01"
+    },
+    {
+        "subscriptionID": "176",
+        "customerID": "50",
+        "magazineTitle": "Atlanta Magazine",
+        "startDate": "2008-03-12",
+        "endDate": "2011-01-19"
+    },
+    {
+        "subscriptionID": "177",
+        "customerID": "13",
+        "magazineTitle": "New York Magazine",
+        "startDate": "2008-01-31",
+        "endDate": "2019-01-11"
+    },
+    {
+        "subscriptionID": "178",
+        "customerID": "95",
+        "magazineTitle": "Jet",
+        "startDate": "2006-02-04",
+        "endDate": "2021-06-24"
+    },
+    {
+        "subscriptionID": "179",
+        "customerID": "52",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2016-11-05",
+        "endDate": "2036-07-11"
+    },
+    {
+        "subscriptionID": "180",
+        "customerID": "13",
+        "magazineTitle": "Computerworld",
+        "startDate": "2019-10-08",
+        "endDate": "2024-02-23"
+    },
+    {
+        "subscriptionID": "181",
+        "customerID": "49",
+        "magazineTitle": "Computerworld",
+        "startDate": "2017-06-01",
+        "endDate": "2031-05-24"
+    },
+    {
+        "subscriptionID": "182",
+        "customerID": "56",
+        "magazineTitle": "Mother Jones Magazine",
+        "startDate": "2020-01-17",
+        "endDate": "2040-08-23"
+    },
+    {
+        "subscriptionID": "183",
+        "customerID": "20",
+        "magazineTitle": "Atlanta Magazine",
+        "startDate": "2011-11-07",
+        "endDate": "2028-05-21"
+    },
+    {
+        "subscriptionID": "184",
+        "customerID": "50",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2010-11-07",
+        "endDate": "2011-11-07"
+    },
+    {
+        "subscriptionID": "185",
+        "customerID": "74",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2005-05-06",
+        "endDate": "2006-07-04"
+    },
+    {
+        "subscriptionID": "186",
+        "customerID": "67",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2014-11-15",
+        "endDate": "2026-01-09"
+    },
+    {
+        "subscriptionID": "187",
+        "customerID": "88",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2019-12-30",
+        "endDate": "2026-04-14"
+    },
+    {
+        "subscriptionID": "188",
+        "customerID": "10",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2008-08-22",
+        "endDate": "2009-08-25"
+    },
+    {
+        "subscriptionID": "189",
+        "customerID": "17",
+        "magazineTitle": "Computerworld",
+        "startDate": "2019-03-08",
+        "endDate": "2034-03-19"
+    },
+    {
+        "subscriptionID": "190",
+        "customerID": "24",
+        "magazineTitle": "Computerworld",
+        "startDate": "2007-11-29",
+        "endDate": "2020-08-02"
+    },
+    {
+        "subscriptionID": "191",
+        "customerID": "39",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2015-11-02",
+        "endDate": "2032-11-13"
+    },
+    {
+        "subscriptionID": "192",
+        "customerID": "58",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2014-01-09",
+        "endDate": "2031-11-22"
+    },
+    {
+        "subscriptionID": "193",
+        "customerID": "97",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2005-03-10",
+        "endDate": "2010-11-14"
+    },
+    {
+        "subscriptionID": "194",
+        "customerID": "64",
+        "magazineTitle": "CIO",
+        "startDate": "2010-09-05",
+        "endDate": "2019-06-26"
+    },
+    {
+        "subscriptionID": "195",
+        "customerID": "92",
+        "magazineTitle": "CIO",
+        "startDate": "2020-01-07",
+        "endDate": "2032-01-23"
+    },
+    {
+        "subscriptionID": "196",
+        "customerID": "26",
+        "magazineTitle": "New Scientist",
+        "startDate": "2009-04-22",
+        "endDate": "2021-01-23"
+    },
+    {
+        "subscriptionID": "197",
+        "customerID": "50",
+        "magazineTitle": "New Scientist",
+        "startDate": "2006-01-09",
+        "endDate": "2022-09-24"
+    },
+    {
+        "subscriptionID": "198",
+        "customerID": "13",
+        "magazineTitle": "Computerworld",
+        "startDate": "2005-11-07",
+        "endDate": "2018-04-23"
+    },
+    {
+        "subscriptionID": "199",
+        "customerID": "77",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2014-11-17",
+        "endDate": "2024-09-27"
+    },
+    {
+        "subscriptionID": "200",
+        "customerID": "75",
+        "magazineTitle": "Jet",
+        "startDate": "2008-09-11",
+        "endDate": "2023-04-02"
+    },
+    {
+        "subscriptionID": "201",
+        "customerID": "53",
+        "magazineTitle": "Black Enterprise",
+        "startDate": "2005-03-06",
+        "endDate": "2015-01-08"
+    },
+    {
+        "subscriptionID": "202",
+        "customerID": "43",
+        "magazineTitle": "PC Mag",
+        "startDate": "2010-10-25",
+        "endDate": "2027-07-30"
+    },
+    {
+        "subscriptionID": "203",
+        "customerID": "44",
+        "magazineTitle": "Network World",
+        "startDate": "2006-09-21",
+        "endDate": "2006-01-29"
+    },
+    {
+        "subscriptionID": "204",
+        "customerID": "90",
+        "magazineTitle": "Computerworld",
+        "startDate": "2018-03-04",
+        "endDate": "2037-06-04"
+    },
+    {
+        "subscriptionID": "205",
+        "customerID": "12",
+        "magazineTitle": "Computerworld",
+        "startDate": "2013-01-06",
+        "endDate": "2014-06-20"
+    },
+    {
+        "subscriptionID": "206",
+        "customerID": "67",
+        "magazineTitle": "New Scientist",
+        "startDate": "2017-03-09",
+        "endDate": "2035-09-03"
+    },
+    {
+        "subscriptionID": "207",
+        "customerID": "74",
+        "magazineTitle": "Network World",
+        "startDate": "2011-01-27",
+        "endDate": "2024-01-05"
+    },
+    {
+        "subscriptionID": "208",
+        "customerID": "41",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2005-09-09",
+        "endDate": "2015-03-24"
+    },
+    {
+        "subscriptionID": "209",
+        "customerID": "54",
+        "magazineTitle": "Billboard",
+        "startDate": "2018-01-10",
+        "endDate": "2034-02-10"
+    },
+    {
+        "subscriptionID": "210",
+        "customerID": "86",
+        "magazineTitle": "Bulletin of the Atomic Scientists",
+        "startDate": "2013-12-31",
+        "endDate": "2032-11-20"
+    },
+    {
+        "subscriptionID": "211",
+        "customerID": "92",
+        "magazineTitle": "Billboard",
+        "startDate": "2020-09-04",
+        "endDate": "2026-03-19"
+    },
+    {
+        "subscriptionID": "212",
+        "customerID": "55",
+        "magazineTitle": "Network World",
+        "startDate": "2010-05-09",
+        "endDate": "2019-08-28"
+    },
+    {
+        "subscriptionID": "213",
+        "customerID": "88",
+        "magazineTitle": "Billboard",
+        "startDate": "2007-06-11",
+        "endDate": "2015-06-23"
+    },
+    {
+        "subscriptionID": "214",
+        "customerID": "91",
+        "magazineTitle": "Billboard",
+        "startDate": "2007-06-21",
+        "endDate": "2020-01-19"
+    },
+    {
+        "subscriptionID": "215",
+        "customerID": "68",
+        "magazineTitle": "Billboard",
+        "startDate": "2011-11-11",
+        "endDate": "2028-12-04"
+    },
+    {
+        "subscriptionID": "216",
+        "customerID": "24",
+        "magazineTitle": "Billboard",
+        "startDate": "2007-10-27",
+        "endDate": "2008-06-24"
+    },
+    {
+        "subscriptionID": "217",
+        "customerID": "85",
+        "magazineTitle": "Network World",
+        "startDate": "2018-11-17",
+        "endDate": "2021-08-25"
+    },
+    {
+        "subscriptionID": "218",
+        "customerID": "97",
+        "magazineTitle": "Network World",
+        "startDate": "2013-07-26",
+        "endDate": "2014-04-09"
+    },
+    {
+        "subscriptionID": "219",
+        "customerID": "86",
+        "magazineTitle": "Billboard",
+        "startDate": "2006-01-28",
+        "endDate": "2024-12-26"
+    },
+    {
+        "subscriptionID": "220",
+        "customerID": "41",
+        "magazineTitle": "Billboard",
+        "startDate": "2013-10-21",
+        "endDate": "2033-12-14"
+    },
+    {
+        "subscriptionID": "221",
+        "customerID": "36",
+        "magazineTitle": "Billboard",
+        "startDate": "2011-08-16",
+        "endDate": "2015-08-05"
+    },
+    {
+        "subscriptionID": "222",
+        "customerID": "43",
+        "magazineTitle": "Network World",
+        "startDate": "2008-11-26",
+        "endDate": "2026-02-16"
+    },
+    {
+        "subscriptionID": "223",
+        "customerID": "40",
+        "magazineTitle": "Billboard",
+        "startDate": "2006-10-21",
+        "endDate": "2026-09-08"
+    },
+    {
+        "subscriptionID": "224",
+        "customerID": "84",
+        "magazineTitle": "Billboard",
+        "startDate": "2014-01-24",
+        "endDate": "2016-06-10"
+    },
+    {
+        "subscriptionID": "225",
+        "customerID": "81",
+        "magazineTitle": "Billboard",
+        "startDate": "2005-10-15",
+        "endDate": "2015-12-15"
+    },
+    {
+        "subscriptionID": "226",
+        "customerID": "8",
+        "magazineTitle": "Billboard",
+        "startDate": "2016-11-04",
+        "endDate": "2026-08-19"
+    },
+    {
+        "subscriptionID": "227",
+        "customerID": "58",
+        "magazineTitle": "Billboard",
+        "startDate": "2017-03-09",
+        "endDate": "2034-12-01"
+    },
+    {
+        "subscriptionID": "228",
+        "customerID": "41",
+        "magazineTitle": "Computerworld",
+        "startDate": "2007-10-14",
+        "endDate": "2014-12-15"
+    },
+    {
+        "subscriptionID": "229",
+        "customerID": "40",
+        "magazineTitle": "Billboard",
+        "startDate": "2006-01-27",
+        "endDate": "2019-06-16"
+    },
+    {
+        "subscriptionID": "230",
+        "customerID": "10",
+        "magazineTitle": "Billboard",
+        "startDate": "2015-09-14",
+        "endDate": "2020-06-23"
+    },
+    {
+        "subscriptionID": "231",
+        "customerID": "1",
+        "magazineTitle": "Billboard",
+        "startDate": "2008-09-04",
+        "endDate": "2011-01-06"
+    },
+    {
+        "subscriptionID": "232",
+        "customerID": "9",
+        "magazineTitle": "InfoWorld",
+        "startDate": "2014-10-27",
+        "endDate": "2029-08-09"
+    },
+    {
+        "subscriptionID": "233",
+        "customerID": "75",
+        "magazineTitle": "Network World",
+        "startDate": "2005-10-08",
+        "endDate": "2021-12-31"
+    },
+    {
+        "subscriptionID": "234",
+        "customerID": "18",
+        "magazineTitle": "Billboard",
+        "startDate": "2009-09-16",
+        "endDate": "2021-11-19"
+    },
+    {
+        "subscriptionID": "235",
+        "customerID": "44",
+        "magazineTitle": "Computerworld",
+        "startDate": "2005-08-24",
+        "endDate": "2009-07-29"
+    },
+    {
+        "subscriptionID": "236",
+        "customerID": "43",
+        "magazineTitle": "Computerworld",
+        "startDate": "2009-04-05",
+        "endDate": "2022-01-01"
+    },
+    {
+        "subscriptionID": "237",
+        "customerID": "17",
+        "magazineTitle": "Computerworld",
+        "startDate": "2007-06-04",
+        "endDate": "2026-05-24"
+    },
+    {
+        "subscriptionID": "238",
+        "customerID": "84",
+        "magazineTitle": "Billboard",
+        "startDate": "2008-01-13",
+        "endDate": "2018-02-01"
+    },
+    {
+        "subscriptionID": "239",
+        "customerID": "58",
+        "magazineTitle": "Billboard",
+        "startDate": "2011-06-01",
+        "endDate": "2021-12-11"
+    },
+    {
+        "subscriptionID": "240",
+        "customerID": "32",
+        "magazineTitle": "Billboard",
+        "startDate": "2020-10-27",
+        "endDate": "2029-05-20"
+    },
+    {
+        "subscriptionID": "241",
+        "customerID": "78",
+        "magazineTitle": "Computerworld",
+        "startDate": "2020-01-19",
+        "endDate": "2028-02-25"
+    },
+    {
+        "subscriptionID": "242",
+        "customerID": "20",
+        "magazineTitle": "AUUGN",
+        "startDate": "2020-03-01",
+        "endDate": "2030-05-01"
+    },
+    {
+        "subscriptionID": "243",
+        "customerID": "21",
+        "magazineTitle": "CSO",
+        "startDate": "2020-04-26",
+        "endDate": "2038-05-22"
+    },
+    {
+        "subscriptionID": "244",
+        "customerID": "1",
+        "magazineTitle": "AUUGN",
+        "startDate": "2016-02-05",
+        "endDate": "2035-02-05"
+    },
+    {
+        "subscriptionID": "245",
+        "customerID": "4",
+        "magazineTitle": "CSO",
+        "startDate": "2007-08-31",
+        "endDate": "2014-04-29"
+    },
+    {
+        "subscriptionID": "246",
+        "customerID": "21",
+        "magazineTitle": "AUUGN",
+        "startDate": "2008-06-16",
+        "endDate": "2019-08-05"
+    },
+    {
+        "subscriptionID": "247",
+        "customerID": "22",
+        "magazineTitle": "Bulletin of the Atomic Scientists",
+        "startDate": "2005-01-13",
+        "endDate": "2019-10-28"
+    },
+    {
+        "subscriptionID": "248",
+        "customerID": "16",
+        "magazineTitle": "Cincinnati Magazine",
+        "startDate": "2019-09-29",
+        "endDate": "2035-03-10"
+    },
+    {
+        "subscriptionID": "249",
+        "customerID": "35",
+        "magazineTitle": "Popular Mechanics",
+        "startDate": "2013-04-30",
+        "endDate": "2019-04-19"
+    },
+    {
+        "subscriptionID": "250",
+        "customerID": "90",
+        "magazineTitle": "LIFE",
+        "startDate": "2007-10-22",
+        "endDate": "2019-04-09"
+    },
+    {
+        "subscriptionID": "251",
+        "customerID": "64",
+        "magazineTitle": "LIFE",
+        "startDate": "2005-07-17",
+        "endDate": "2020-04-28"
+    },
+    {
+        "subscriptionID": "252",
+        "customerID": "65",
+        "magazineTitle": "Computerworld",
+        "startDate": "2012-07-29",
+        "endDate": "2025-07-15"
+    }
+]

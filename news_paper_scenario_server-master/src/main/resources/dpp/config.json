@@ -1,0 +1,17 @@
+{
+  "fullyQualifiedApplicationName": "com-sap-showcase-media-app1",
+  "applicationTitle": "Showcase Media App V1",
+  "applicationTitleKey": "Showcase Media App V1",
+  "applicationURL": "https://media-app-v1.cfapps.sap.hana.ondemand.com",
+  "endPoints": [
+    {
+      "type": "rest",
+      "serviceName": "CustomerHeader",
+      "serviceTitle": "Customer Header",
+      "serviceTitleKey": "Customer Header",
+      "serviceURI": "/api/dpp/v1",
+      "annotationProviderRestEndPoint": "/api/dpp/v1/metadata",
+      "entityIdentifier": "path"
+    }
+  ]
+}

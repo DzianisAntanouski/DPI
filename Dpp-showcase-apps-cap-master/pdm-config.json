@@ -1,0 +1,16 @@
+{
+    "fullyQualifiedApplicationName": "com-sap-showcase-media-app-cap",
+    "applicationTitle": "Showcase Media App CAP",
+    "applicationTitleKey": "Showcase Media App CAP",
+    "applicationURL": "https://capshowcaseapps-srv.cfapps.sap.hana.ondemand.com",
+    "endPoints": [
+        {
+            "type": "odataV4",
+            "serviceName": "service",
+            "serviceTitle": "service",
+            "serviceTitleKey": "service",
+            "serviceURI": "/gdpr",
+            "hasGdprV4Annotations": true
+        }
+    ]
+}

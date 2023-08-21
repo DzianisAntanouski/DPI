@@ -1,0 +1,38 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TestUIApp2.controller.customer.MasterCustomers"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page id="masterCustomersPage" showNavButton="true" navButtonPress="onNavHome" title="{i18n>masterCustomersTitle}">
+		<subHeader>
+			<Bar id="masterCustomersSearchBar">
+				<contentMiddle>
+					<SearchField id="masterCustomersSearchField" showRefreshButton="{customers>/isNoTouch}" placeholder="{i18n>masterCustomersSearchPlaceholder}"
+						search="onSearch" liveChange="onSearch" tooltip="{i18n>masterCustomersSearchTooltip}" width="100%"/>
+				</contentMiddle>
+			</Bar>
+		</subHeader>
+		<content>
+			<List	id="masterCustomersList" 
+					items="{
+			    		path : 'customers>/',
+		        		sorter : {
+		            		path : 'customerID' 
+		        		}
+		    		}"
+					noDataText="{i18n>masterListNoDataText}">
+				<items>
+					<ObjectListItem title="Customer_ID: {customers>customerID}" type="Navigation" press="onSelect">
+						<attributes>
+							<ObjectAttribute text="{customers>firstName} {customers>lastName}"/>
+						</attributes>
+					</ObjectListItem>
+				</items>
+			</List>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button icon="sap-icon://refresh" tooltip="Refresh" text="Refresh" press="onCustomerRead"/>
+				<Button icon="sap-icon://add" tooltip="Create customer" text="Create" press="onCustomerAdd"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

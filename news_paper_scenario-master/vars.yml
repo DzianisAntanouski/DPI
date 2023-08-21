@@ -1,0 +1,6 @@
+subdomain: cfapps.sap.hana.ondemand.com
+backend_host: media-app-v1
+tenant_id: dpp-showcase
+addmgr_host: address-mgr
+bupa_host: businesspartnerretrival
+

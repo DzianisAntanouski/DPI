@@ -1,0 +1,52 @@
+{
+  "projectType": [
+    "sap.watt.uitools.ide.fiori",
+    "com.sap.webide.hybrid.cordova"
+  ],
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationProjectCommon",
+      "templateVersion": "1.32.0",
+      "dateTimeStamp": "Wed, 21 Feb 2018 19:38:06 GMT"
+    },
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationProject",
+      "templateVersion": "1.40.12",
+      "dateTimeStamp": "Wed, 21 Feb 2018 19:38:06 GMT"
+    }
+  ],
+  "codeCheckingTriggers": {
+    "notifyBeforePush": true,
+    "notifyBeforePushLevel": "Error",
+    "blockPush": false,
+    "blockPushLevel": "Error"
+  },
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "basevalidator": {
+    "services": {
+      "xml": "xmlValidator",
+      "js": "fioriJsValidator"
+    }
+  },
+  "hybrid": {
+    "hatVersion": "1.28.8",
+    "appNamespace": "TestUIApp2",
+    "FacadeConfig": {
+      "cordova-plugin-device-orientation": false,
+      "accelerometer": {},
+      "compass": {},
+      "bFacade": false
+    }
+  },
+  "hcpdeploy": {
+    "account": "i045157trial",
+    "name": "testuiapp2",
+    "lastVersionWeTriedToDeploy": "1.0.3"
+  }
+}
